@@ -1,5 +1,5 @@
 import { KEYS } from "../keys";
-import { Creativedraw } from "../packages/excalidraw/entry";
+import { Creativeboard } from "../packages/excalidraw/entry";
 import { API } from "./helpers/api";
 import { Keyboard } from "./helpers/ui";
 import { fireEvent, render, waitFor } from "./test-utils";
@@ -7,7 +7,7 @@ import { fireEvent, render, waitFor } from "./test-utils";
 describe("shortcuts", () => {
   it("Clear canvas shortcut should display confirm dialog", async () => {
     await render(
-      <Creativedraw
+      <Creativeboard
         initialData={{ elements: [API.createElement({ type: "rectangle" })] }}
         handleKeyboardGlobally
       />,

@@ -44,7 +44,7 @@
     "withBackground": "Kolor wypełnienia",
     "exportEmbedScene": "Osadź scenę",
     "exportEmbedScene_details": "Dane sceny zostaną zapisane w eksportowanym pliku PNG/SVG tak, aby scena mogła zostać z niego przywrócona.\nZwiększy to rozmiar eksportowanego pliku.",
-    "addWatermark": "Dodaj \"Zrobione w Creativedraw\"",
+    "addWatermark": "Dodaj \"Zrobione w Creativeboard\"",
     "handDrawn": "Odręczny",
     "normal": "Normalny",
     "code": "Kod",
@@ -77,7 +77,7 @@
     "untitled": "Bez tytułu",
     "name": "Nazwa",
     "yourName": "Twoje imię",
-    "madeWithExcalidraw": "Zrobione w Creativedraw",
+    "madeWithExcalidraw": "Zrobione w Creativeboard",
     "group": "Zgrupuj wybrane",
     "ungroup": "Rozgrupuj wybrane",
     "collaborators": "Współtwórcy",
@@ -105,7 +105,7 @@
     "showBackground": "Pokaż próbnik koloru tła",
     "toggleTheme": "Przełącz motyw",
     "personalLib": "Biblioteka prywatna",
-    "excalidrawLib": "Biblioteka Creativedraw",
+    "excalidrawLib": "Biblioteka Creativeboard",
     "decreaseFontSize": "",
     "increaseFontSize": "",
     "unbindText": "",
@@ -189,7 +189,7 @@
     "confirmAddLibrary": "To doda {{numShapes}} kształtów do twojej biblioteki. Jesteś pewien?",
     "imageDoesNotContainScene": "Ten obraz nie zawiera żadnych informacji o scenie. Czy włączyłeś osadzanie sceny podczas eksportu?",
     "cannotRestoreFromImage": "Scena nie mogła zostać przywrócona z pliku obrazu",
-    "invalidSceneUrl": "Nie udało się zaimportować sceny z podanego adresu URL. Jest ona wadliwa lub nie zawiera poprawnych danych Creativedraw w formacie JSON.",
+    "invalidSceneUrl": "Nie udało się zaimportować sceny z podanego adresu URL. Jest ona wadliwa lub nie zawiera poprawnych danych Creativeboard w formacie JSON.",
     "resetLibrary": "To wyczyści twoją bibliotekę. Jesteś pewien?",
     "removeItemsFromsLibrary": "Usunąć {{count}} element(ów) z biblioteki?",
     "invalidEncryptionKey": "Klucz szyfrowania musi składać się z 22 znaków. Współpraca na żywo jest wyłączona.",
@@ -276,7 +276,7 @@
     "desc_inProgressIntro": "Sesja współpracy na żywo właśnie się rozpoczęła.",
     "desc_shareLink": "Udostępnij ten link osobom, z którymi chcesz współpracować:",
     "desc_exitSession": "Zakończenie sesji spowoduje odłączenie ciebie od pokoju, ale nadal będziesz mógł lokalnie kontynuować pracę. Zauważ, że osoby z którymi współpracowałeś nadal będą mogły współpracować.",
-    "shareTitle": "Dołącz do sesji współpracy na żywo w Creativedraw"
+    "shareTitle": "Dołącz do sesji współpracy na żywo w Creativeboard"
   },
   "errorDialog": {
     "title": "Wystąpił błąd"
@@ -288,7 +288,7 @@
     "link_title": "Link do udostępnienia",
     "link_details": "Eksportuj jako link tylko do odczytu.",
     "link_button": "Wygeneruj link",
-    "excalidrawplus_description": "Zapisz scenę do swojego obszaru roboczego Creativedraw+.",
+    "excalidrawplus_description": "Zapisz scenę do swojego obszaru roboczego Creativeboard+.",
     "excalidrawplus_button": "Eksportuj",
     "excalidrawplus_exportError": ""
   },
@@ -373,7 +373,7 @@
     "removeItemsFromLib": "Usuń wybrane elementy z biblioteki"
   },
   "encrypted": {
-    "tooltip": "Twoje rysunki są zabezpieczone szyfrowaniem end-to-end, tak więc nawet w Creativedraw nie jesteśmy w stanie zobaczyć tego co tworzysz.",
+    "tooltip": "Twoje rysunki są zabezpieczone szyfrowaniem end-to-end, tak więc nawet w Creativeboard nie jesteśmy w stanie zobaczyć tego co tworzysz.",
     "link": ""
   },
   "stats": {

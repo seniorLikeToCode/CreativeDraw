@@ -143,7 +143,7 @@ const offsetElementAfterFontResize = (
           : prevElement.x +
             (prevElement.width - nextElement.width) /
               (prevElement.textAlign === "center" ? 2 : 1),
-      // centering vertically is non-standard, but for Creativedraw I think
+      // centering vertically is non-standard, but for Creativeboard I think
       // it makes sense
       y: prevElement.y + (prevElement.height - nextElement.height) / 2,
     },

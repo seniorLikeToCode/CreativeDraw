@@ -390,10 +390,10 @@ describe("restoreAppState", () => {
     );
   });
 
-  it("when imported data state has a not allowed Creativedraw Element Types", () => {
+  it("when imported data state has a not allowed Creativeboard Element Types", () => {
     const stubImportedAppState: any = getDefaultAppState();
 
-    stubImportedAppState.activeTool = "not allowed Creativedraw Element Types";
+    stubImportedAppState.activeTool = "not allowed Creativeboard Element Types";
     const stubLocalAppState = getDefaultAppState();
 
     const restoredAppState = restore.restoreAppState(

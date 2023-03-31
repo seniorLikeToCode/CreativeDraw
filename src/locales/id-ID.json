@@ -44,7 +44,7 @@
     "withBackground": "Latar",
     "exportEmbedScene": "Sematkan pemandangan",
     "exportEmbedScene_details": "Data pemandangan akan disimpan dalam file PNG/SVG yang diekspor, sehingga pemandangan itu dapat dipulihkan darinya.\nAkan membesarkan ukuran file yang diekspor.",
-    "addWatermark": "Tambahkan \"Dibuat dengan Creativedraw\"",
+    "addWatermark": "Tambahkan \"Dibuat dengan Creativeboard\"",
     "handDrawn": "Tulisan tangan",
     "normal": "Normal",
     "code": "Kode",
@@ -77,7 +77,7 @@
     "untitled": "Tanpa judul",
     "name": "Nama",
     "yourName": "Nama Anda",
-    "madeWithExcalidraw": "Dibuat dengan Creativedraw",
+    "madeWithExcalidraw": "Dibuat dengan Creativeboard",
     "group": "Kelompokan pilihan",
     "ungroup": "Pisahkan pilihan",
     "collaborators": "Kolaborator",
@@ -105,7 +105,7 @@
     "showBackground": "Tampilkan latar pengambil warna",
     "toggleTheme": "Ubah tema",
     "personalLib": "Pustaka Pribadi",
-    "excalidrawLib": "Pustaka Creativedraw",
+    "excalidrawLib": "Pustaka Creativeboard",
     "decreaseFontSize": "Kecilkan ukuran font",
     "increaseFontSize": "Besarkan ukuran font",
     "unbindText": "Lepas teks",
@@ -181,7 +181,7 @@
     "cannotExportEmptyCanvas": "Tidak bisa mengekspor kanvas kosong",
     "couldNotCopyToClipboard": "Tidak bisa menyalin ke papan klip.",
     "decryptFailed": "Tidak dapat mengdekripsi data.",
-    "uploadedSecurly": "Pengunggahan ini telah diamankan menggunakan enkripsi end-to-end, artinya server Creativedraw dan pihak ketiga tidak data membaca nya",
+    "uploadedSecurly": "Pengunggahan ini telah diamankan menggunakan enkripsi end-to-end, artinya server Creativeboard dan pihak ketiga tidak data membaca nya",
     "loadSceneOverridePrompt": "Memuat gambar external akan mengganti konten Anda yang ada. Apakah Anda ingin melanjutkan?",
     "collabStopOverridePrompt": "Menghentikan sesi akan menimpa gambar Anda yang tersimpan secara lokal. Anda yakin?\n\n(Jika Anda ingin menyimpan gambar lokal Anda, gantinya cukup tutup tab browser.)",
     "errorAddingToLibrary": "Tidak dapat menambahkan item ke pustaka",
@@ -189,7 +189,7 @@
     "confirmAddLibrary": "Ini akan menambahkan {{numShapes}} bentuk ke pustaka Anda. Anda yakin?",
     "imageDoesNotContainScene": "Gambar ini sepertinya tidak terdapat data pemandangan. Sudahkah Anda mengaktifkan penyematan pemandangan ketika ekspor?",
     "cannotRestoreFromImage": "Pemandangan tidak dapat dipulihkan dari file gambar ini",
-    "invalidSceneUrl": "Tidak dapat impor pemandangan dari URL. Kemungkinan URL itu rusak atau tidak berisi data JSON Creativedraw yang valid.",
+    "invalidSceneUrl": "Tidak dapat impor pemandangan dari URL. Kemungkinan URL itu rusak atau tidak berisi data JSON Creativeboard yang valid.",
     "resetLibrary": "Ini akan menghapus pustaka Anda. Anda yakin?",
     "removeItemsFromsLibrary": "Hapus {{count}} item dari pustaka?",
     "invalidEncryptionKey": "Sandi enkripsi harus 22 karakter. Kolaborasi langsung dinonaktifkan.",
@@ -276,7 +276,7 @@
     "desc_inProgressIntro": "Sesi kolaborasi sedang berlangsung sekarang.",
     "desc_shareLink": "Bagikan tautan ini dengan siapa pun yang Anda inginkan untuk kolaborasi bersama:",
     "desc_exitSession": "Menghentikan sesi akan memutuskan hubungan Anda dari ruangan, tetapi Anda dapat melanjutkan bekerja dengan pemandangan Anda secara lokal. Perhatikan bahwa ini tidak memengaruhi orang lain, dan mereka masih dapat berkolaborasi pada versi mereka.",
-    "shareTitle": "Gabung sesi kolaborasi langsung di Creativedraw"
+    "shareTitle": "Gabung sesi kolaborasi langsung di Creativeboard"
   },
   "errorDialog": {
     "title": "Kesalahan"
@@ -288,9 +288,9 @@
     "link_title": "Tautan",
     "link_details": "Ekspor sebagai tautan yang hanya dibaca.",
     "link_button": "Ekspor ke tautan",
-    "excalidrawplus_description": "Simpan pemandangan ke ruang kerja Creativedraw+ Anda.",
+    "excalidrawplus_description": "Simpan pemandangan ke ruang kerja Creativeboard+ Anda.",
     "excalidrawplus_button": "Ekspor",
-    "excalidrawplus_exportError": "Tidak dapat ekspor ke Creativedraw+ saat ini..."
+    "excalidrawplus_exportError": "Tidak dapat ekspor ke Creativeboard+ saat ini..."
   },
   "helpDialog": {
     "blog": "Baca blog kami",
@@ -373,8 +373,8 @@
     "removeItemsFromLib": "Hapus item yang dipilih dari pustaka"
   },
   "encrypted": {
-    "tooltip": "Gambar anda terenkripsi end-to-end sehingga server Creativedraw tidak akan pernah dapat melihatnya.",
-    "link": "Pos blog tentang enkripsi ujung ke ujung di Creativedraw"
+    "tooltip": "Gambar anda terenkripsi end-to-end sehingga server Creativeboard tidak akan pernah dapat melihatnya.",
+    "link": "Pos blog tentang enkripsi ujung ke ujung di Creativeboard"
   },
   "stats": {
     "angle": "Sudut",
@@ -452,7 +452,7 @@
   "welcomeScreen": {
     "app": {
       "center_heading": "Semua data Anda disimpan secara lokal di peramban Anda.",
-      "center_heading_plus": "Apa Anda ingin berpindah ke Creativedraw+?",
+      "center_heading_plus": "Apa Anda ingin berpindah ke Creativeboard+?",
       "menuHint": "Ekspor, preferensi, bahasa, ..."
     },
     "defaults": {

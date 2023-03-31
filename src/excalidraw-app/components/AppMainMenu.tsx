@@ -26,7 +26,7 @@ export const AppMainMenu: React.FC<{
         href="https://plus.excalidraw.com/plus?utm_source=excalidraw&utm_medium=app&utm_content=hamburger"
         className="ExcalidrawPlus"
       >
-        Creativedraw+
+        Creativeboard+
       </MainMenu.ItemLink> */}
       {/* <MainMenu.DefaultItems.Socials /> */}
       <MainMenu.Separator />

@@ -79,7 +79,7 @@ const getLibraryCommitsSinceLastRelease = async () => {
 const updateChangelog = async (nextVersion) => {
   const commitList = await getLibraryCommitsSinceLastRelease();
   let changelogForLibrary =
-    "## Creativedraw Library\n\n**_This section lists the updates made to the excalidraw library and will not affect the integration._**\n\n";
+    "## Creativeboard Library\n\n**_This section lists the updates made to the excalidraw library and will not affect the integration._**\n\n";
   supportedTypes.forEach((type) => {
     if (commitList[type].length) {
       changelogForLibrary += `### ${headerForType[type]}\n\n`;

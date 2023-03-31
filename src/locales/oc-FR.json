@@ -44,7 +44,7 @@
     "withBackground": "Rèireplan",
     "exportEmbedScene": "Scèna embarcada",
     "exportEmbedScene_details": "Las donadas de scèna seràn enregistradas dins lo fichièr PNG/SVG exportat, per que la scèna pòsca èsser restaurada a partir d’aqueste fichièr.\nAumentarà la talha del fichièr exportat.",
-    "addWatermark": "Apondre « Fabricat amb Creativedraw »",
+    "addWatermark": "Apondre « Fabricat amb Creativeboard »",
     "handDrawn": "A la man levada",
     "normal": "Normala",
     "code": "Còdi",
@@ -77,7 +77,7 @@
     "untitled": "Sens títol",
     "name": "Nom",
     "yourName": "Vòstre nom",
-    "madeWithExcalidraw": "Fabricat amb Creativedraw",
+    "madeWithExcalidraw": "Fabricat amb Creativeboard",
     "group": "Gropar la seleccion",
     "ungroup": "Desunir la seleccion",
     "collaborators": "Collaborators",
@@ -105,7 +105,7 @@
     "showBackground": "Mostrar lo selector de color de fons",
     "toggleTheme": "Alternar tèma",
     "personalLib": "Bibliotèca personala",
-    "excalidrawLib": "Bibliotèca Creativedraw",
+    "excalidrawLib": "Bibliotèca Creativeboard",
     "decreaseFontSize": "Reduire talha polissa",
     "increaseFontSize": "Aumentar talha polissa",
     "unbindText": "Dessociar lo tèxte",
@@ -181,7 +181,7 @@
     "cannotExportEmptyCanvas": "Impossible d’exportar los canabasses voids.",
     "couldNotCopyToClipboard": "Còpia impossibla al quichapapièrs.",
     "decryptFailed": "Deschiframent impossible de las donadas.",
-    "uploadedSecurly": "Lo telecargament es estat securizat amb un chiframent del cap a la fin, significa que los servidors d’Creativedraw o que quina tèrça part que siá pòdon pas legir lo contengut.",
+    "uploadedSecurly": "Lo telecargament es estat securizat amb un chiframent del cap a la fin, significa que los servidors d’Creativeboard o que quina tèrça part que siá pòdon pas legir lo contengut.",
     "loadSceneOverridePrompt": "Cargar un dessenh extèrn remplaçarà vòstre contengut existent. Volètz contunhar ?",
     "collabStopOverridePrompt": "Arrestar la session remplaçarà vòstre precedent dessenh gardat localament. O volètz vertadièrament ?\n\n(Se volètz gardar vòstre dessenh local, tampatz simplament l’onglet del navegador a la plaça)",
     "errorAddingToLibrary": "Apondon impossible de l’element a la bibliotèca",
@@ -189,7 +189,7 @@
     "confirmAddLibrary": "Apondrà {{numShapes}} forma(s) a vòstra bibliotèca. Confirmatz ?",
     "imageDoesNotContainScene": "Aqueste imatge sembla pas conténer cap de donadas de scèna. Avètz activat l’integracion de scèna pendent l’exportacion ?",
     "cannotRestoreFromImage": "Restauracion impossibla de la scèna a partir del fichièr imatge",
-    "invalidSceneUrl": "Importacion impossibla de la scèna a partir de l’URL provesida. Es siá mal formatada o siá conten pas cap de donada JSON Creativedraw valida.",
+    "invalidSceneUrl": "Importacion impossibla de la scèna a partir de l’URL provesida. Es siá mal formatada o siá conten pas cap de donada JSON Creativeboard valida.",
     "resetLibrary": "Aquò suprimirà vòstra bibliotèca. O volètz vertadièrament ?",
     "removeItemsFromsLibrary": "Suprimir {{count}} element(s) de la bibliotèca ?",
     "invalidEncryptionKey": "La clau de chiframent deu conténer 22 caractèrs. La collaboracion en dirèct es desactivada.",
@@ -276,7 +276,7 @@
     "desc_inProgressIntro": "La session de collaboracion es ara en cors.",
     "desc_shareLink": "Partejatz aqueste ligam amb lo monde amb qui volètz collaborar :",
     "desc_exitSession": "Arrestar la session vos desconnectarà de la sala, mas poiretz contunhar de trabalhar a la scèna, en local. Notatz qu’aquò afectarà pas los autres, e poiràn collaborar a lor version.",
-    "shareTitle": "Rejonhètz una session collaborativa sus Creativedraw"
+    "shareTitle": "Rejonhètz una session collaborativa sus Creativeboard"
   },
   "errorDialog": {
     "title": "Error"
@@ -288,9 +288,9 @@
     "link_title": "Ligam de partejar",
     "link_details": "Exportar coma un ligam de lectura sola.",
     "link_button": "Exportar en ligam",
-    "excalidrawplus_description": "Enregistrar la scèna dins vòstre espaci de trabalh Creativedraw+.",
+    "excalidrawplus_description": "Enregistrar la scèna dins vòstre espaci de trabalh Creativeboard+.",
     "excalidrawplus_button": "Exportar",
-    "excalidrawplus_exportError": "Export impossibla cap a Creativedraw+ pel moment..."
+    "excalidrawplus_exportError": "Export impossibla cap a Creativeboard+ pel moment..."
   },
   "helpDialog": {
     "blog": "Legir nòstre blog",
@@ -373,8 +373,8 @@
     "removeItemsFromLib": "Tirar los elements seleccionats de la bibliotèca"
   },
   "encrypted": {
-    "tooltip": "Vòstres dessenhs son chifrats del cap a la fin en consequéncia los servidors d’Creativedraw los veiràn pas jamai.",
-    "link": "Article de blòg sul chiframent del cap a la fin dins Creativedraw"
+    "tooltip": "Vòstres dessenhs son chifrats del cap a la fin en consequéncia los servidors d’Creativeboard los veiràn pas jamai.",
+    "link": "Article de blòg sul chiframent del cap a la fin dins Creativeboard"
   },
   "stats": {
     "angle": "Angle",
@@ -452,7 +452,7 @@
   "welcomeScreen": {
     "app": {
       "center_heading": "Totas las donadas son enregistradas dins vòstre navegador.",
-      "center_heading_plus": "Voliatz puslèu utilizar Creativedraw+ a la plaça ?",
+      "center_heading_plus": "Voliatz puslèu utilizar Creativeboard+ a la plaça ?",
       "menuHint": "Exportar, preferéncias, lengas, ..."
     },
     "defaults": {

@@ -89,7 +89,7 @@ const DefaultMainMenu: React.FC<{
       <MainMenu.DefaultItems.Help />
       <MainMenu.DefaultItems.ClearCanvas />
       <MainMenu.Separator />
-      <MainMenu.Group title="Creativedraw links">
+      <MainMenu.Group title="Creativeboard links">
         <MainMenu.DefaultItems.Socials />
       </MainMenu.Group>
       <MainMenu.Separator />

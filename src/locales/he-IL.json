@@ -44,7 +44,7 @@
     "withBackground": "רקע",
     "exportEmbedScene": "הטמעה של מידע הסצנה",
     "exportEmbedScene_details": "מידע התצוגה יישמר לקובץ המיוצא מסוג PNG/SVG כך שיהיה ניתן לשחזרה ממנו.\nהפעולה תגדיל את גודל הקובץ המיוצא.",
-    "addWatermark": "הוסף \"נוצר באמצעות Creativedraw\"",
+    "addWatermark": "הוסף \"נוצר באמצעות Creativeboard\"",
     "handDrawn": "כתב יד",
     "normal": "רגיל",
     "code": "קוד",
@@ -77,7 +77,7 @@
     "untitled": "ללא כותרת",
     "name": "שם",
     "yourName": "שם",
-    "madeWithExcalidraw": "נוצר באמצעות Creativedraw",
+    "madeWithExcalidraw": "נוצר באמצעות Creativeboard",
     "group": "אחד לקבוצה",
     "ungroup": "פרק קבוצה",
     "collaborators": "שותפים",
@@ -105,7 +105,7 @@
     "showBackground": "הצג צבעי רקע",
     "toggleTheme": "שינוי ערכת העיצוב",
     "personalLib": "ספריה פרטית",
-    "excalidrawLib": "הספריה של Creativedraw",
+    "excalidrawLib": "הספריה של Creativeboard",
     "decreaseFontSize": "הקטן את גודל הגופן",
     "increaseFontSize": "הגדל את גודל הגופן",
     "unbindText": "ביטול קיבוע הטקסט",
@@ -181,7 +181,7 @@
     "cannotExportEmptyCanvas": "לא ניתן לייצא לוח ריק.",
     "couldNotCopyToClipboard": "לא ניתן היה להעתיק ללוח",
     "decryptFailed": "לא ניתן לפענח מידע.",
-    "uploadedSecurly": "ההעלאה הוצפנה מקצה לקצה, ולכן שרת Creativedraw וצד שלישי לא יכולים לקרוא את התוכן.",
+    "uploadedSecurly": "ההעלאה הוצפנה מקצה לקצה, ולכן שרת Creativeboard וצד שלישי לא יכולים לקרוא את התוכן.",
     "loadSceneOverridePrompt": "טעינה של ציור חיצוני תחליף את התוכן הקיים שלך. האם תרצה להמשיך?",
     "collabStopOverridePrompt": "עצירת השיתוף תוביל למחיקת התרשימים השמורים בדפדפן. האם את/ה בטוח/ה?\n(אם תרצה לשמור את התרשימים הקיימים, תוכל לסגור את הדפדפן מבלי לסיים את השיתוף.)",
     "errorAddingToLibrary": "לא ניתן להוסיף פריט לספרייה",
@@ -189,7 +189,7 @@
     "confirmAddLibrary": "הפעולה תוסיף {{numShapes}} צורה(ות) לספריה שלך. האם אתה בטוח?",
     "imageDoesNotContainScene": "נראה שהתמונה לא מכילה מידע על הסצינה. האם אפשרת הטמעת מידע הסצינה בעת השמירה?",
     "cannotRestoreFromImage": "לא הצלחנו לשחזר את התצוגה מקובץ התמונה",
-    "invalidSceneUrl": "ייבוא המידע מן סצינה מכתובת האינטרנט נכשלה. המידע בנוי באופן משובש או שהוא אינו קובץ JSON תקין של Creativedraw.",
+    "invalidSceneUrl": "ייבוא המידע מן סצינה מכתובת האינטרנט נכשלה. המידע בנוי באופן משובש או שהוא אינו קובץ JSON תקין של Creativeboard.",
     "resetLibrary": "פעולה זו תנקה את כל הלוח. אתה בטוח?",
     "removeItemsFromsLibrary": "מחיקת {{count}} פריטים(ים) מתוך הספריה?",
     "invalidEncryptionKey": "מפתח ההצפנה חייב להיות בן 22 תוים. השיתוף החי מבוטל.",
@@ -276,7 +276,7 @@
     "desc_inProgressIntro": "שיתוף חי כרגע בפעולה.",
     "desc_shareLink": "שתף את הקישור עם כל מי שאתה מעוניין לעבוד אתו:",
     "desc_exitSession": "עצירת השיתוף תנתק אותך מהחדר, אבל עדיין תוכל להמשיך לעבוד על הלוח, מקומית. שים לב שזה לא ישפיע על אנשים אחרים, והם עדיין יוכלו לשתף פעולה עם הגירסה שלהם.",
-    "shareTitle": "הצטרף לסשן שיתוף בזמן אמת של Creativedraw"
+    "shareTitle": "הצטרף לסשן שיתוף בזמן אמת של Creativeboard"
   },
   "errorDialog": {
     "title": "שגיאה"
@@ -288,9 +288,9 @@
     "link_title": "העתקת קישור לשיתוף",
     "link_details": "ייצוא כקישור לקריאה בלבד.",
     "link_button": "ייצוא כקישור",
-    "excalidrawplus_description": "שמור את המפה לסביבת העבודה שלך ב-Creativedraw+.",
+    "excalidrawplus_description": "שמור את המפה לסביבת העבודה שלך ב-Creativeboard+.",
     "excalidrawplus_button": "ייצוא",
-    "excalidrawplus_exportError": "הייצוא ל-Creativedraw+ לא הצליח לעת עתה..."
+    "excalidrawplus_exportError": "הייצוא ל-Creativeboard+ לא הצליח לעת עתה..."
   },
   "helpDialog": {
     "blog": "קרא את הבלוג שלנו",
@@ -373,8 +373,8 @@
     "removeItemsFromLib": "להסיר את הפריטים הנבחרים מהספריה"
   },
   "encrypted": {
-    "tooltip": "הרישומים שלך מוצפנים מקצה לקצה כך שהשרתים של Creativedraw לא יראו אותם לעולם.",
-    "link": "פוסט בבלוג על הצפנה מקצה לקצב ב-Creativedraw"
+    "tooltip": "הרישומים שלך מוצפנים מקצה לקצה כך שהשרתים של Creativeboard לא יראו אותם לעולם.",
+    "link": "פוסט בבלוג על הצפנה מקצה לקצב ב-Creativeboard"
   },
   "stats": {
     "angle": "זווית",

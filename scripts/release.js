@@ -8,7 +8,7 @@ const pkg = require(excalidrawPackage);
 const originalReadMe = fs.readFileSync(`${excalidrawDir}/README.md`, "utf8");
 
 const updateReadme = () => {
-  const excalidrawIndex = originalReadMe.indexOf("### Creativedraw");
+  const excalidrawIndex = originalReadMe.indexOf("### Creativeboard");
 
   // remove note for stable readme
   const data = originalReadMe.slice(excalidrawIndex);

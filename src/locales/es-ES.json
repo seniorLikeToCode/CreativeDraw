@@ -44,7 +44,7 @@
     "withBackground": "Fondo",
     "exportEmbedScene": "Incrustar escena",
     "exportEmbedScene_details": "Los datos de escena se guardarán en el archivo PNG/SVG exportado, así la escena puede ser restaurada de la misma.\nEsto aumentará el tamaño del archivo exportado.",
-    "addWatermark": "Agregar \"Hecho con Creativedraw\"",
+    "addWatermark": "Agregar \"Hecho con Creativeboard\"",
     "handDrawn": "Dibujado a mano",
     "normal": "Normal",
     "code": "Código",
@@ -77,7 +77,7 @@
     "untitled": "Sin título",
     "name": "Nombre",
     "yourName": "Tu nombre",
-    "madeWithExcalidraw": "Hecho con Creativedraw",
+    "madeWithExcalidraw": "Hecho con Creativeboard",
     "group": "Agrupar selección",
     "ungroup": "Desagrupar selección",
     "collaborators": "Colaboradores",
@@ -105,7 +105,7 @@
     "showBackground": "Mostrar el selector de color de fondo",
     "toggleTheme": "Cambiar tema",
     "personalLib": "Biblioteca personal",
-    "excalidrawLib": "Biblioteca Creativedraw",
+    "excalidrawLib": "Biblioteca Creativeboard",
     "decreaseFontSize": "Disminuir tamaño de letra",
     "increaseFontSize": "Aumentar el tamaño de letra",
     "unbindText": "Desvincular texto",
@@ -181,7 +181,7 @@
     "cannotExportEmptyCanvas": "No se puede exportar un lienzo vació",
     "couldNotCopyToClipboard": "No se pudo copiar al portapapeles.",
     "decryptFailed": "No se pudieron descifrar los datos.",
-    "uploadedSecurly": "La carga ha sido asegurada con cifrado de principio a fin, lo que significa que el servidor de Creativedraw y terceros no pueden leer el contenido.",
+    "uploadedSecurly": "La carga ha sido asegurada con cifrado de principio a fin, lo que significa que el servidor de Creativeboard y terceros no pueden leer el contenido.",
     "loadSceneOverridePrompt": "Si carga este dibujo externo, reemplazará el que tiene. ¿Desea continuar?",
     "collabStopOverridePrompt": "Detener la sesión sobrescribirá su dibujo anterior almacenado localmente. ¿Está seguro?\n\n(Si desea mantener su dibujo local, simplemente cierre la pestaña del navegador.)",
     "errorAddingToLibrary": "No se pudo agregar el elemento a la biblioteca",
@@ -189,7 +189,7 @@
     "confirmAddLibrary": "Esto añadirá {{numShapes}} forma(s) a tu biblioteca. ¿Estás seguro?",
     "imageDoesNotContainScene": "Esta imagen no parece contener datos de escena. ¿Ha habilitado la inserción de la escena durante la exportación?",
     "cannotRestoreFromImage": "No se pudo restaurar la escena desde este archivo de imagen",
-    "invalidSceneUrl": "No se ha podido importar la escena desde la URL proporcionada. Está mal formada, o no contiene datos de Creativedraw JSON válidos.",
+    "invalidSceneUrl": "No se ha podido importar la escena desde la URL proporcionada. Está mal formada, o no contiene datos de Creativeboard JSON válidos.",
     "resetLibrary": "Esto borrará tu biblioteca. ¿Estás seguro?",
     "removeItemsFromsLibrary": "¿Eliminar {{count}} elemento(s) de la biblioteca?",
     "invalidEncryptionKey": "La clave de cifrado debe tener 22 caracteres. La colaboración en vivo está deshabilitada.",
@@ -276,7 +276,7 @@
     "desc_inProgressIntro": "La sesión de colaboración en vivo está ahora en progreso.",
     "desc_shareLink": "Comparte este enlace con cualquier persona con quien quieras colaborar:",
     "desc_exitSession": "Detener la sesión te desconectará de la sala, pero podrás seguir trabajando con la escena en su computadora, esto es de modo local. Ten en cuenta que esto no afectará a otras personas, y que las mismas seguirán siendo capaces de colaborar en tu escena.",
-    "shareTitle": "Únase a una sesión colaborativa en vivo en Creativedraw"
+    "shareTitle": "Únase a una sesión colaborativa en vivo en Creativeboard"
   },
   "errorDialog": {
     "title": "Error"
@@ -288,9 +288,9 @@
     "link_title": "Enlace para compartir",
     "link_details": "Exportar como enlace de sólo lectura.",
     "link_button": "Exportar a Link",
-    "excalidrawplus_description": "Guarde la escena en su espacio de trabajo de Creativedraw+.",
+    "excalidrawplus_description": "Guarde la escena en su espacio de trabajo de Creativeboard+.",
     "excalidrawplus_button": "Exportar",
-    "excalidrawplus_exportError": "No se pudo exportar a Creativedraw+ en este momento..."
+    "excalidrawplus_exportError": "No se pudo exportar a Creativeboard+ en este momento..."
   },
   "helpDialog": {
     "blog": "Lea nuestro blog",
@@ -373,7 +373,7 @@
     "removeItemsFromLib": "Eliminar elementos seleccionados de la biblioteca"
   },
   "encrypted": {
-    "tooltip": "Tus dibujos están cifrados de punto a punto, por lo que los servidores de Creativedraw nunca los verán.",
+    "tooltip": "Tus dibujos están cifrados de punto a punto, por lo que los servidores de Creativeboard nunca los verán.",
     "link": "Entrada en el blog sobre cifrado de extremo a extremo"
   },
   "stats": {
@@ -452,7 +452,7 @@
   "welcomeScreen": {
     "app": {
       "center_heading": "Toda su información es guardada localmente en su navegador.",
-      "center_heading_plus": "¿Quieres ir a Creativedraw+?",
+      "center_heading_plus": "¿Quieres ir a Creativeboard+?",
       "menuHint": "Exportar, preferencias, idiomas, ..."
     },
     "defaults": {

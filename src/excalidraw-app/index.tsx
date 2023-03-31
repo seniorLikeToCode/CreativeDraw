@@ -22,7 +22,7 @@ import {
 import { useCallbackRefState } from "../hooks/useCallbackRefState";
 import { t } from "../i18n";
 import {
-  Creativedraw,
+  Creativeboard,
   defaultLang,
   LiveCollaborationTrigger,
 } from "../packages/excalidraw/index";
@@ -610,7 +610,7 @@ const ExcalidrawWrapper = () => {
         "is-collaborating": isCollaborating,
       })}
     >
-      <Creativedraw
+      <Creativeboard
         ref={excalidrawRefCallback}
         onChange={onChange}
         initialData={initialStatePromiseRef.current.promise}
@@ -670,7 +670,7 @@ const ExcalidrawWrapper = () => {
             {t("alerts.collabOfflineWarning")}
           </div>
         )}
-      </Creativedraw>
+      </Creativeboard>
       {excalidrawAPI && <Collab excalidrawAPI={excalidrawAPI} />}
       {errorMessage && (
         <ErrorDialog onClose={() => setErrorMessage("")}>

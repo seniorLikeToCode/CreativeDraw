@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Creativedraw/> <MainMenu/> should render main menu with host menu items if passed from host 1`] = `
+exports[`<Creativeboard/> <MainMenu/> should render main menu with host menu items if passed from host 1`] = `
 <div
   class="dropdown-menu"
   data-testid="dropdown-menu"
@@ -34,7 +34,7 @@ exports[`<Creativedraw/> <MainMenu/> should render main menu with host menu item
       <div
         class="dropdown-menu-item__text"
       >
-        Creativedraw blog
+        Creativeboard blog
       </div>
     </a>
     <div
@@ -109,7 +109,7 @@ exports[`<Creativedraw/> <MainMenu/> should render main menu with host menu item
 </div>
 `;
 
-exports[`<Creativedraw/> Test UIOptions prop Test canvasActions should render menu with default items when "UIOPtions" is "undefined" 1`] = `
+exports[`<Creativeboard/> Test UIOptions prop Test canvasActions should render menu with default items when "UIOPtions" is "undefined" 1`] = `
 <div
   class="dropdown-menu"
   data-testid="dropdown-menu"
@@ -351,7 +351,7 @@ exports[`<Creativedraw/> Test UIOptions prop Test canvasActions should render me
       <p
         class="dropdown-menu-group-title"
       >
-        Creativedraw links
+        Creativeboard links
       </p>
       <a
         aria-label="GitHub"

@@ -11,7 +11,7 @@ export const ExcalidrawPlusAppLink = () => {
       rel="noreferrer"
       className="plus-button"
     >
-      Go to Creativedraw+
+      Go to Creativeboard+
     </a>
   );
 };

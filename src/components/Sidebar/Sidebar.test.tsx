@@ -1,5 +1,5 @@
 import React from "react";
-import { Creativedraw, Sidebar } from "../../packages/excalidraw/index";
+import { Creativeboard, Sidebar } from "../../packages/excalidraw/index";
 import {
   act,
   fireEvent,
@@ -13,7 +13,7 @@ import {
 describe("Sidebar", () => {
   it("should render custom sidebar", async () => {
     const { container } = await render(
-      <Creativedraw
+      <Creativeboard
         initialData={{ appState: { openSidebar: "customSidebar" } }}
         renderSidebar={() => (
           <Sidebar>
@@ -29,7 +29,7 @@ describe("Sidebar", () => {
 
   it("should render custom sidebar header", async () => {
     const { container } = await render(
-      <Creativedraw
+      <Creativeboard
         initialData={{ appState: { openSidebar: "customSidebar" } }}
         renderSidebar={() => (
           <Sidebar>
@@ -50,7 +50,7 @@ describe("Sidebar", () => {
 
   it("should render only one sidebar and prefer the custom one", async () => {
     const { container } = await render(
-      <Creativedraw
+      <Creativeboard
         initialData={{ appState: { openSidebar: "customSidebar" } }}
         renderSidebar={() => (
           <Sidebar>
@@ -75,7 +75,7 @@ describe("Sidebar", () => {
     const onClose = jest.fn();
     const CustomExcalidraw = () => {
       return (
-        <Creativedraw
+        <Creativeboard
           initialData={{ appState: { openSidebar: "customSidebar" } }}
           renderSidebar={() => (
             <Sidebar className="test-sidebar" onClose={onClose}>
@@ -103,7 +103,7 @@ describe("Sidebar", () => {
   it("should render custom sidebar with dock (irrespective of onDock prop)", async () => {
     const CustomExcalidraw = () => {
       return (
-        <Creativedraw
+        <Creativeboard
           initialData={{ appState: { openSidebar: "customSidebar" } }}
           renderSidebar={() => (
             <Sidebar className="test-sidebar">hello</Sidebar>
@@ -142,7 +142,7 @@ describe("Sidebar", () => {
       const [dockable, setDockable] = React.useState(false);
       _setDockable = setDockable;
       return (
-        <Creativedraw
+        <Creativeboard
           initialData={{ appState: { openSidebar: "customSidebar" } }}
           renderSidebar={() => (
             <Sidebar
@@ -198,7 +198,7 @@ describe("Sidebar", () => {
       const [docked, setDocked] = React.useState<boolean | undefined>();
       _setDocked = setDocked;
       return (
-        <Creativedraw
+        <Creativeboard
           initialData={{ appState: { openSidebar: "customSidebar" } }}
           renderSidebar={() => (
             <Sidebar className="test-sidebar" docked={docked}>
@@ -286,7 +286,7 @@ describe("Sidebar", () => {
 
   it("should toggle sidebar using props.toggleMenu()", async () => {
     const { container } = await render(
-      <Creativedraw
+      <Creativeboard
         renderSidebar={() => (
           <Sidebar>
             <div id="test-sidebar-content">42</div>

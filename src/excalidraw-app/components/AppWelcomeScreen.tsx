@@ -12,16 +12,16 @@ export const AppWelcomeScreen: React.FC<{
 
   // if (isExcalidrawPlusSignedUser) {
   //   headingContent = t("welcomeScreen.app.center_heading_plus")
-  //     .split(/(Creativedraw\+)/)
+  //     .split(/(Creativeboard\+)/)
   //     .map((bit, idx) => {
-  //       if (bit === "Creativedraw+") {
+  //       if (bit === "Creativeboard+") {
   //         return (
   //           <a
   //             style={{ pointerEvents: "all" }}
   //             href={`${process.env.REACT_APP_PLUS_APP}?utm_source=excalidraw&utm_medium=app&utm_content=welcomeScreenSignedInUser`}
   //             key={idx}
   //           >
-  //             Creativedraw+
+  //             Creativeboard+
   //           </a>
   //         );
   //       }
@@ -43,7 +43,7 @@ export const AppWelcomeScreen: React.FC<{
         <WelcomeScreen.Center.Heading>
           {headingContent}
         </WelcomeScreen.Center.Heading>
-        <WelcomeScreen.Center.Menu>
+        {/* <WelcomeScreen.Center.Menu> */}
           {/* <WelcomeScreen.Center.MenuItemLoadScene /> */}
           {/* <WelcomeScreen.Center.MenuItemHelp /> */}
           {/* <WelcomeScreen.Center.MenuItemLiveCollaborationTrigger
@@ -55,10 +55,10 @@ export const AppWelcomeScreen: React.FC<{
               shortcut={null}
               icon={PlusPromoIcon}
             >
-              Try Creativedraw Plus!
+              Try Creativeboard Plus!
             </WelcomeScreen.Center.MenuItemLink>
           )} */}
-        </WelcomeScreen.Center.Menu>
+        {/* </WelcomeScreen.Center.Menu> */}
       </WelcomeScreen.Center>
     </WelcomeScreen>
   );

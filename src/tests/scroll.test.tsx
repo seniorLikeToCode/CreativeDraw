@@ -4,7 +4,7 @@ import {
   restoreOriginalGetBoundingClientRect,
   waitFor,
 } from "./test-utils";
-import { Creativedraw } from "../packages/excalidraw/index";
+import { Creativeboard } from "../packages/excalidraw/index";
 import { API } from "./helpers/api";
 import { Keyboard } from "./helpers/ui";
 import { KEYS } from "../keys";
@@ -26,7 +26,7 @@ describe("appState", () => {
 
     await render(
       <div>
-        <Creativedraw
+        <Creativeboard
           initialData={{
             elements: [
               API.createElement({

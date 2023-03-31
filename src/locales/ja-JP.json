@@ -44,7 +44,7 @@
     "withBackground": "背景",
     "exportEmbedScene": "埋め込みシーン",
     "exportEmbedScene_details": "シーンデータはエクスポートされたPNG/SVGファイルに保存され、シーンを復元することができます。\nエクスポートされたファイルのサイズは増加します。",
-    "addWatermark": "\"Made with Creativedraw\"と表示",
+    "addWatermark": "\"Made with Creativeboard\"と表示",
     "handDrawn": "手描き風",
     "normal": "普通",
     "code": "コード",
@@ -189,7 +189,7 @@
     "confirmAddLibrary": "{{numShapes}} 個の図形をライブラリに追加します。よろしいですか？",
     "imageDoesNotContainScene": "この画像にはシーンデータが含まれていないようです。エクスポート時にシーンの埋め込みを有効にしましたか？",
     "cannotRestoreFromImage": "このイメージファイルからシーンを復元できませんでした",
-    "invalidSceneUrl": "指定された URL からシーンをインポートできませんでした。不正な形式であるか、有効な Creativedraw JSON データが含まれていません。",
+    "invalidSceneUrl": "指定された URL からシーンをインポートできませんでした。不正な形式であるか、有効な Creativeboard JSON データが含まれていません。",
     "resetLibrary": "ライブラリを消去します。本当によろしいですか？",
     "removeItemsFromsLibrary": "{{count}} 個のアイテムをライブラリから削除しますか？",
     "invalidEncryptionKey": "暗号化キーは22文字でなければなりません。ライブコラボレーションは無効化されています。",
@@ -288,9 +288,9 @@
     "link_title": "共有可能なリンク",
     "link_details": "読み取り専用リンクとしてエクスポート",
     "link_button": "リンクとしてエクスポート",
-    "excalidrawplus_description": "Creativedraw+ ワークスペースにシーンを保存します。",
+    "excalidrawplus_description": "Creativeboard+ ワークスペースにシーンを保存します。",
     "excalidrawplus_button": "エクスポート",
-    "excalidrawplus_exportError": "Creativedraw+ にエクスポートできませんでした..."
+    "excalidrawplus_exportError": "Creativeboard+ にエクスポートできませんでした..."
   },
   "helpDialog": {
     "blog": "公式ブログを読む",

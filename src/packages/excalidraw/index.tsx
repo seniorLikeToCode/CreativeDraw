@@ -190,8 +190,8 @@ const forwardedRefComp = forwardRef<
   PublicExcalidrawProps
 >((props, ref) => <ExcalidrawBase {...props} excalidrawRef={ref} />);
 
-export const Creativedraw = React.memo(forwardedRefComp, areEqual);
-Creativedraw.displayName = "Creativedraw";
+export const Creativeboard = React.memo(forwardedRefComp, areEqual);
+Creativeboard.displayName = "Creativeboard";
 
 export {
   getSceneVersion,

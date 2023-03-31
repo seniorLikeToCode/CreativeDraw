@@ -6,7 +6,7 @@
 npm install @excalidraw/utils
 ```
 
-If you prefer Yarn over npm, use this command to install the Creativedraw utils package:
+If you prefer Yarn over npm, use this command to install the Creativeboard utils package:
 
 ```bash
 yarn add @excalidraw/utils
@@ -20,15 +20,15 @@ See [`serializeAsJSON`](https://github.com/excalidraw/excalidraw/blob/master/src
 
 ### `exportToBlob` (async)
 
-Export an Creativedraw diagram to a [Blob](https://developer.mozilla.org/en-US/docs/Web/API/Blob).
+Export an Creativeboard diagram to a [Blob](https://developer.mozilla.org/en-US/docs/Web/API/Blob).
 
 ### `exportToSvg`
 
-Export an Creativedraw diagram to a [SVGElement](https://developer.mozilla.org/en-US/docs/Web/API/SVGElement).
+Export an Creativeboard diagram to a [SVGElement](https://developer.mozilla.org/en-US/docs/Web/API/SVGElement).
 
 ## Usage
 
-Creativedraw utils is published as a UMD (Universal Module Definition). If you are using a module bundler (for instance, Webpack), you can import it as an ES6 module:
+Creativeboard utils is published as a UMD (Universal Module Definition). If you are using a module bundler (for instance, Webpack), you can import it as an ES6 module:
 
 ```js
 import { exportToSvg, exportToBlob } from "@excalidraw/utils";
@@ -82,11 +82,11 @@ const excalidrawDiagram = {
   },
 };
 
-// Export the Creativedraw diagram as SVG string
+// Export the Creativeboard diagram as SVG string
 const svg = exportToSvg(excalidrawDiagram);
 console.log(svg.outerHTML);
 
-// Export the Creativedraw diagram as PNG Blob URL
+// Export the Creativeboard diagram as PNG Blob URL
 (async () => {
   const blob = await exportToBlob({
     ...excalidrawDiagram,

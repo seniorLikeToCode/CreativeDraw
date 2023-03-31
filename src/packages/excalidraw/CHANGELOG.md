@@ -15,7 +15,7 @@ Please add the latest change on the top under the correct section.
 
 ### Features
 
-- Expose `useI18n()` hook return an object containing `t()` i18n helper and current `langCode`. You can use this in components you render as `<Creativedraw>` children to render any of our i18n locale strings. [#6224](https://github.com/excalidraw/excalidraw/pull/6224)
+- Expose `useI18n()` hook return an object containing `t()` i18n helper and current `langCode`. You can use this in components you render as `<Creativeboard>` children to render any of our i18n locale strings. [#6224](https://github.com/excalidraw/excalidraw/pull/6224)
 
 - [`restoreElements`](https://docs.excalidraw.com/docs/@excalidraw/excalidraw/api/utils/restore#restoreelements) API now takes an optional parameter `opts` which currently supports the below attributes
 
@@ -42,7 +42,7 @@ For more details refer to the [docs](https://docs.excalidraw.com)
 
 - declare css variable for font in excalidraw so its available in host [#6160](https://github.com/excalidraw/excalidraw/pull/6160)
 
-## Creativedraw Library
+## Creativeboard Library
 
 **_This section lists the updates made to the excalidraw library and will not affect the integration._**
 
@@ -90,13 +90,13 @@ For more details refer to the [docs](https://docs.excalidraw.com)
 
 - Support customization for the editor [welcome screen](https://github.com/excalidraw/excalidraw/blob/master/src/packages/excalidraw/README.md#WelcomeScreen) [#6048](https://github.com/excalidraw/excalidraw/pull/6048).
 
-- Expose component API for the Creativedraw main menu [#6034](https://github.com/excalidraw/excalidraw/pull/6034), You can read more about its usage [here](https://github.com/excalidraw/excalidraw/blob/master/src/packages/excalidraw/README.md#MainMenu)
+- Expose component API for the Creativeboard main menu [#6034](https://github.com/excalidraw/excalidraw/pull/6034), You can read more about its usage [here](https://github.com/excalidraw/excalidraw/blob/master/src/packages/excalidraw/README.md#MainMenu)
 
-- Support customization for the Creativedraw [main menu](https://github.com/excalidraw/excalidraw/blob/master/src/packages/excalidraw/README.md#MainMenu) [#6034](https://github.com/excalidraw/excalidraw/pull/6034).
+- Support customization for the Creativeboard [main menu](https://github.com/excalidraw/excalidraw/blob/master/src/packages/excalidraw/README.md#MainMenu) [#6034](https://github.com/excalidraw/excalidraw/pull/6034).
 
 - [Footer](https://github.com/excalidraw/excalidraw/blob/master/src/packages/excalidraw/README.md#Footer) is now rendered as child component instead of passed as a render prop [#5970](https://github.com/excalidraw/excalidraw/pull/5970).
 
-- Any top-level children passed to the `<Creativedraw/>` component that do not belong to one of the officially supported Creativedraw children components are now rendered directly inside the Creativedraw container (previously, they weren't rendered at all) [#6096](https://github.com/excalidraw/excalidraw/pull/6096).
+- Any top-level children passed to the `<Creativeboard/>` component that do not belong to one of the officially supported Creativeboard children components are now rendered directly inside the Creativeboard container (previously, they weren't rendered at all) [#6096](https://github.com/excalidraw/excalidraw/pull/6096).
 
 - Expose [LiveCollaborationTrigger](https://github.com/excalidraw/excalidraw/blob/master/src/packages/excalidraw/README.md#LiveCollaborationTrigger) component. Replaces `props.onCollabButtonClick` [#6104](https://github.com/excalidraw/excalidraw/pull/6104).
 
@@ -105,11 +105,11 @@ For more details refer to the [docs](https://docs.excalidraw.com)
 - `props.onCollabButtonClick` is now removed. You need to render the main menu item yourself, and optionally also render the `<LiveCollaborationTrigger>` component using [renderTopRightUI](https://github.com/excalidraw/excalidraw/blob/master/src/packages/excalidraw/README.md#renderTopRightUI) prop if you want to retain the canvas button at top-right.
 - The prop `renderFooter` is now removed in favor of rendering as a child component.
 
-### Creativedraw schema
+### Creativeboard schema
 
-- Merged `appState.currentItemStrokeSharpness` and `appState.currentItemLinearStrokeSharpness` into `appState.currentItemRoundness`. Renamed `changeSharpness` action to `changeRoundness`. Creativedraw element's `strokeSharpness` was changed to `roundness`. Check the PR for types and more details [#5553](https://github.com/excalidraw/excalidraw/pull/5553).
+- Merged `appState.currentItemStrokeSharpness` and `appState.currentItemLinearStrokeSharpness` into `appState.currentItemRoundness`. Renamed `changeSharpness` action to `changeRoundness`. Creativeboard element's `strokeSharpness` was changed to `roundness`. Check the PR for types and more details [#5553](https://github.com/excalidraw/excalidraw/pull/5553).
 
-## Creativedraw Library
+## Creativeboard Library
 
 **_This section lists the updates made to the excalidraw library and will not affect the integration._**
 
@@ -269,7 +269,7 @@ For more details refer to the [docs](https://docs.excalidraw.com)
 
 ## 0.13.0 (2022-10-27)
 
-### Creativedraw API
+### Creativeboard API
 
 #### Features
 
@@ -277,7 +277,7 @@ For more details refer to the [docs](https://docs.excalidraw.com)
 - Support rendering custom sidebar using [`renderSidebar`](https://github.com/excalidraw/excalidraw/blob/master/src/packages/excalidraw/README.md#renderSidebar) prop ([#5663](https://github.com/excalidraw/excalidraw/pull/5663)).
 - Add [`toggleMenu`](https://github.com/excalidraw/excalidraw/blob/master/src/packages/excalidraw/README.md#toggleMenu) prop to toggle specific menu open/close state ([#5663](https://github.com/excalidraw/excalidraw/pull/5663)).
 - Support [theme](https://github.com/excalidraw/excalidraw/blob/master/src/packages/excalidraw/README.md#theme) to be semi-controlled [#5660](https://github.com/excalidraw/excalidraw/pull/5660).
-- Added support for storing [`customData`](https://github.com/excalidraw/excalidraw/blob/master/src/packages/excalidraw/README.md#storing-custom-data-on-excalidraw-elements) on Creativedraw elements [#5592].
+- Added support for storing [`customData`](https://github.com/excalidraw/excalidraw/blob/master/src/packages/excalidraw/README.md#storing-custom-data-on-excalidraw-elements) on Creativeboard elements [#5592].
 - Added `exportPadding?: number;` to [exportToCanvas](https://github.com/excalidraw/excalidraw/blob/master/src/packages/excalidraw/README.md#exporttocanvas) and [exportToBlob](https://github.com/excalidraw/excalidraw/blob/master/src/packages/excalidraw/README.md#exporttoblob). The default value of the padding is `10`.
 
 #### Breaking Changes
@@ -285,7 +285,7 @@ For more details refer to the [docs](https://docs.excalidraw.com)
 - `props.UIOptions.canvasActions.theme` is now renamed to `props.UIOptions.canvasActions.toggleTheme` [#5660](https://github.com/excalidraw/excalidraw/pull/5660).
 - `setToastMessage` API is now renamed to `setToast` API and the function signature is also updated [#5427](https://github.com/excalidraw/excalidraw/pull/5427). You can also pass `duration` and `closable` attributes along with `message`.
 
-## Creativedraw Library
+## Creativeboard Library
 
 **_This section lists the updates made to the excalidraw library and will not affect the integration._**
 
@@ -421,7 +421,7 @@ For more details refer to the [docs](https://docs.excalidraw.com)
 
 - Missing translation for "Scale" to Export Dialog [#5456](https://github.com/excalidraw/excalidraw/pull/5456)
 
-- Add display name for Creativedraw component so it doesn't show as anonymous [#5464](https://github.com/excalidraw/excalidraw/pull/5464)
+- Add display name for Creativeboard component so it doesn't show as anonymous [#5464](https://github.com/excalidraw/excalidraw/pull/5464)
 
 - Account for safe area for floating buttons on mobile [#5420](https://github.com/excalidraw/excalidraw/pull/5420)
 
@@ -435,7 +435,7 @@ For more details refer to the [docs](https://docs.excalidraw.com)
 
 - Show toast when browser zoom is not 100% [#5304](https://github.com/excalidraw/excalidraw/pull/5304)
 
-- Prevent browser zoom inside Creativedraw [#5426](https://github.com/excalidraw/excalidraw/pull/5426)
+- Prevent browser zoom inside Creativeboard [#5426](https://github.com/excalidraw/excalidraw/pull/5426)
 
 - Typo in changelog [#5425](https://github.com/excalidraw/excalidraw/pull/5425)
 
@@ -489,14 +489,14 @@ Check out the [release notes](https://github.com/excalidraw/excalidraw/releases/
 
 ## 0.8.0 (2021-05-15)
 
-## Creativedraw API
+## Creativeboard API
 
 **_These section lists the updates which may affect your integration, so it is recommended to go through this when upgrading the version._**
 
 ### Features
 
 - Support updating any `appState` properties in [`updateScene`](https://github.com/excalidraw/excalidraw/blob/master/src/components/App.tsx#L282) API. Earlier only `appState.viewBackgroundColor` was supported, now any attribute can be updated with this API.
-- Expose [`serializeAsJSON`](https://github.com/excalidraw/excalidraw/blob/master/src/packages/excalidraw/README.md#serializeAsJSON) helper that we use when saving Creativedraw scene to a file [#3538](https://github.com/excalidraw/excalidraw/pull/3538).
+- Expose [`serializeAsJSON`](https://github.com/excalidraw/excalidraw/blob/master/src/packages/excalidraw/README.md#serializeAsJSON) helper that we use when saving Creativeboard scene to a file [#3538](https://github.com/excalidraw/excalidraw/pull/3538).
 - Add support to render custom UI in the top right corner via [`renderTopRightUI`](https://github.com/excalidraw/excalidraw/blob/master/src/packages/excalidraw/README.md#renderTopRightUI) prop [#3539](https://github.com/excalidraw/excalidraw/pull/3539), [#3572](https://github.com/excalidraw/excalidraw/pull/3572) .
 
   This also removes the GitHub icon, keeping it local to the https://creative-draw.vercel.app app.
@@ -507,7 +507,7 @@ Check out the [release notes](https://github.com/excalidraw/excalidraw/releases/
 
   Now `appState` is also passed to [`renderFooter`](https://github.com/excalidraw/excalidraw/blob/master/src/packages/excalidraw/README.md#renderFooter) prop.
 
-## Creativedraw Library
+## Creativeboard Library
 
 **_These section lists the updates made to the excalidraw library and will not affect the integration._**
 
@@ -536,11 +536,11 @@ Check out the [release notes](https://github.com/excalidraw/excalidraw/releases/
 
 ## 0.7.0 (2021-04-26)
 
-## Creativedraw API
+## Creativeboard API
 
 ### Features
 
-- [`scrollToContent`](https://github.com/excalidraw/excalidraw/blob/master/src/components/App.tsx#L265) API now supports passing just a single Creativedraw element, or none at all (which will default to current elements on the scene) [#3482](https://github.com/excalidraw/excalidraw/pull/3482).
+- [`scrollToContent`](https://github.com/excalidraw/excalidraw/blob/master/src/components/App.tsx#L265) API now supports passing just a single Creativeboard element, or none at all (which will default to current elements on the scene) [#3482](https://github.com/excalidraw/excalidraw/pull/3482).
 
   #### BREAKING CHANGE
 
@@ -562,7 +562,7 @@ Check out the [release notes](https://github.com/excalidraw/excalidraw/releases/
 
   #### BREAKING CHANGE
 
-  - Earlier keyboard events were bind to document but now its bind to Creativedraw component by default. So you will need to set [`handleKeyboardGlobally`](https://github.com/excalidraw/excalidraw/blob/master/src/packages/excalidraw/README.md#handleKeyboardGlobally) to true if you want the previous behaviour (bind the keyboard events to document).
+  - Earlier keyboard events were bind to document but now its bind to Creativeboard component by default. So you will need to set [`handleKeyboardGlobally`](https://github.com/excalidraw/excalidraw/blob/master/src/packages/excalidraw/README.md#handleKeyboardGlobally) to true if you want the previous behaviour (bind the keyboard events to document).
 
 - Recompute offsets on `scroll` of the nearest scrollable container [#3408](https://github.com/excalidraw/excalidraw/pull/3408). This can be disabled by setting [`detectScroll`](https://github.com/excalidraw/excalidraw/blob/master/src/packages/excalidraw/README.md#detectScroll) to `false`.
 
@@ -573,12 +573,12 @@ Check out the [release notes](https://github.com/excalidraw/excalidraw/releases/
 - Changing z-index of elements (sorting them below/above other elements) now updates their `version` and `versionNonce` (only applies to the selected elements). This fix will allow you account for z-index changes if you're syncing just the elements that changed (and not the whole scene) [#3483](https://github.com/excalidraw/excalidraw/pull/3483).
 - Only handle cut/paste events inside excalidraw [#3484](https://github.com/excalidraw/excalidraw/pull/3484).
 
-- Make history local to a given Creativedraw instance. This fixes a case where history was getting shared when you have multiple Creativedraw components on the same page [#3481](https://github.com/excalidraw/excalidraw/pull/3481).
-- Use active Creativedraw component when editing text. This fixes a case where text editing was not working when you have multiple Creativedraw components on the same page [#3478](https://github.com/excalidraw/excalidraw/pull/3478).
+- Make history local to a given Creativeboard instance. This fixes a case where history was getting shared when you have multiple Creativeboard components on the same page [#3481](https://github.com/excalidraw/excalidraw/pull/3481).
+- Use active Creativeboard component when editing text. This fixes a case where text editing was not working when you have multiple Creativeboard components on the same page [#3478](https://github.com/excalidraw/excalidraw/pull/3478).
 
 - Fix library being pasted off-center [#3462](https://github.com/excalidraw/excalidraw/pull/3462).
 
-- When switching theme, apply it only to the active Creativedraw component. This fixes a case where the theme was getting applied to the first Creativedraw component if you had multiple Creativedraw components on the same page [#3446](https://github.com/excalidraw/excalidraw/pull/3446).
+- When switching theme, apply it only to the active Creativeboard component. This fixes a case where the theme was getting applied to the first Creativeboard component if you had multiple Creativeboard components on the same page [#3446](https://github.com/excalidraw/excalidraw/pull/3446).
 
 ### Refactor
 
@@ -601,7 +601,7 @@ Check out the [release notes](https://github.com/excalidraw/excalidraw/releases/
   - `DataState` → `ExportedDataState`
   - `LibraryData` → `ExportedLibraryData`
 
-## Creativedraw Library
+## Creativeboard Library
 
 ### Features
 
@@ -625,14 +625,14 @@ Check out the [release notes](https://github.com/excalidraw/excalidraw/releases/
 
 ## 0.6.0 (2021-04-04)
 
-## Creativedraw API
+## Creativeboard API
 
 ### Features
 
 - Add `UIOptions` prop to customise `canvas actions` which includes customising `background color picker`, `clear canvas`, `export`, `load`, `save`, `save as` & `theme toggle` [#3364](https://github.com/excalidraw/excalidraw/pull/3364). Check the [readme](https://github.com/excalidraw/excalidraw/blob/master/src/packages/excalidraw/README.md#uioptions) for more details.
 - Calculate `width/height` of canvas based on excalidraw component (".excalidraw" selector) & also resize and update offsets whenever the dimensions of excalidraw component gets updated [#3379](https://github.com/excalidraw/excalidraw/pull/3379). You also don't need to add a resize handler anymore for excalidraw as its handled now in excalidraw itself.
   #### BREAKING CHANGE
-  - `width/height` props have been removed. Instead now it takes `100%` of `width` and `height` of the container so you need to make sure the container in which you are rendering Creativedraw has non zero dimensions (It should have non zero width and height so Creativedraw can match the dimensions of containing block)
+  - `width/height` props have been removed. Instead now it takes `100%` of `width` and `height` of the container so you need to make sure the container in which you are rendering Creativeboard has non zero dimensions (It should have non zero width and height so Creativeboard can match the dimensions of containing block)
 - Calculate offsets when excalidraw container resizes using resize observer api [#3374](https://github.com/excalidraw/excalidraw/pull/3374).
 - Export types for the package so now it can be used with typescript [#3337](https://github.com/excalidraw/excalidraw/pull/3337). The types are available at `@excalidraw/excalidraw/types`.
 - Add `renderCustomStats` prop to render extra stats on host, and expose `setToastMessage` API via refs which can be used to show toast with custom message [#3360](https://github.com/excalidraw/excalidraw/pull/3360).
@@ -654,7 +654,7 @@ Check out the [release notes](https://github.com/excalidraw/excalidraw/releases/
 
 - Rename the API `setCanvasOffsets` exposed via [`ref`](https://github.com/excalidraw/excalidraw/blob/master/src/components/App.tsx#L265) to `refresh` [#3398](https://github.com/excalidraw/excalidraw/pull/3398).
 
-## Creativedraw Library
+## Creativeboard Library
 
 ### Features
 
@@ -685,17 +685,17 @@ Check out the [release notes](https://github.com/excalidraw/excalidraw/releases/
 
 ## 0.5.0 (2021-03-21)
 
-## Creativedraw API
+## Creativeboard API
 
 ### Features
 
 - Set the target to `window.name` if present during excalidraw libraries installation so it opens in same tab for the host. If `window.name` is not set it will open in a new tab [#3299](https://github.com/excalidraw/excalidraw/pull/3299).
-- Add `name` prop to indicate the name of the drawing which will be used when exporting the drawing. When supplied, the value takes precedence over `intialData.appState.name`, the `name` will be fully controlled by host app and the users won't be able to edit from within Creativedraw [#3273](https://github.com/excalidraw/excalidraw/pull/3273).
-- Export API `setCanvasOffsets` via `ref` to set the offsets for Creativedraw[#3265](https://github.com/excalidraw/excalidraw/pull/3265).
+- Add `name` prop to indicate the name of the drawing which will be used when exporting the drawing. When supplied, the value takes precedence over `intialData.appState.name`, the `name` will be fully controlled by host app and the users won't be able to edit from within Creativeboard [#3273](https://github.com/excalidraw/excalidraw/pull/3273).
+- Export API `setCanvasOffsets` via `ref` to set the offsets for Creativeboard[#3265](https://github.com/excalidraw/excalidraw/pull/3265).
   #### BREAKING CHANGE
   - `offsetLeft` and `offsetTop` props have been removed now so you have to use the `setCanvasOffsets` via `ref` to achieve the same.
 - Export API to export the drawing to canvas, svg and blob [#3258](https://github.com/excalidraw/excalidraw/pull/3258). For more info you can check the [readme](https://github.com/excalidraw/excalidraw/tree/master/src/packages/excalidraw/README.md#user-content-export-utils)
-- Add a `theme` prop to indicate Creativedraw's theme. [#3228](https://github.com/excalidraw/excalidraw/pull/3228). When this prop is passed, the theme is fully controlled by host app.
+- Add a `theme` prop to indicate Creativeboard's theme. [#3228](https://github.com/excalidraw/excalidraw/pull/3228). When this prop is passed, the theme is fully controlled by host app.
 - Support `libraryReturnUrl` prop to indicate what URL to install libraries to [#3227](https://github.com/excalidraw/excalidraw/pull/3227).
 
 ### Refactor
@@ -708,7 +708,7 @@ Check out the [release notes](https://github.com/excalidraw/excalidraw/releases/
   - The class `Appearance_dark` is renamed to `theme--dark`.
   - The class `Appearance_dark-background-none` is renamed to `theme--dark-background-none`.
 
-## Creativedraw Library
+## Creativeboard Library
 
 ### Features
 
@@ -730,7 +730,7 @@ Check out the [release notes](https://github.com/excalidraw/excalidraw/releases/
 
 ## 0.4.3 (2021-03-12)
 
-## Creativedraw API
+## Creativeboard API
 
 ### Fixes
 
@@ -738,16 +738,16 @@ Check out the [release notes](https://github.com/excalidraw/excalidraw/releases/
 - Position text editor absolute and fix the offsets so it doesn't remain fixed when the container is scrolled [#3200](https://github.com/excalidraw/excalidraw/pull/3200).
 - Scope CSS variables so that host CSS vars don't clash with excalidraw [#3199](https://github.com/excalidraw/excalidraw/pull/3199).
 
-## Creativedraw Library
+## Creativeboard Library
 
 - Apply correct translation when text editor overflows when zoom not 100% [#3225](https://github.com/excalidraw/excalidraw/pull/3225)
-- Don't overflow text beyond width of Creativedraw [#3215](https://github.com/excalidraw/excalidraw/pull/3215).
+- Don't overflow text beyond width of Creativeboard [#3215](https://github.com/excalidraw/excalidraw/pull/3215).
 
 ---
 
 ## 0.4.2
 
-## Creativedraw API
+## Creativeboard API
 
 ### Fixes
 
@@ -755,7 +755,7 @@ Check out the [release notes](https://github.com/excalidraw/excalidraw/releases/
 - Reduce the scroll debounce timeout to `100ms` so `offsets` gets updated faster if changed when container scrolled [#3182](https://github.com/excalidraw/excalidraw/pull/3182).
 - Rerender UI on `renderFooter` prop change [#3183](https://github.com/excalidraw/excalidraw/pull/3183)
 
-## Creativedraw Library
+## Creativeboard Library
 
 ### Fixes
 
@@ -765,13 +765,13 @@ Check out the [release notes](https://github.com/excalidraw/excalidraw/releases/
 
 ## 0.4.1
 
-## Creativedraw API
+## Creativeboard API
 
 ### Fixes
 
 - Use `Array.from` when spreading over set so that typescript transpiles correctly in the umd build[#3165](https://github.com/excalidraw/excalidraw/pull/3165).
 
-## Creativedraw Library
+## Creativeboard Library
 
 ### Features
 
@@ -786,7 +786,7 @@ Check out the [release notes](https://github.com/excalidraw/excalidraw/releases/
 
 ## 0.4.0
 
-## Creativedraw API
+## Creativeboard API
 
 ### Features
 
@@ -802,7 +802,7 @@ Check out the [release notes](https://github.com/excalidraw/excalidraw/releases/
 
 - Show user state only when [userState](https://github.com/excalidraw/excalidraw/blob/master/src/types.ts#L35) is passed on remote pointers during collaboration [#3050](https://github.com/excalidraw/excalidraw/pull/3050)
 
-## Creativedraw Library
+## Creativeboard Library
 
 ### Features
 
@@ -814,13 +814,13 @@ Check out the [release notes](https://github.com/excalidraw/excalidraw/releases/
 
 ## 0.3.1
 
-## Creativedraw API
+## Creativeboard API
 
 ### Fixes
 
-- Support Creativedraw inside scrollable container [#3018](https://github.com/excalidraw/excalidraw/pull/3018)
+- Support Creativeboard inside scrollable container [#3018](https://github.com/excalidraw/excalidraw/pull/3018)
 
-## Creativedraw Library
+## Creativeboard Library
 
 ### Fixes
 
@@ -828,7 +828,7 @@ Check out the [release notes](https://github.com/excalidraw/excalidraw/releases/
 
 ## 0.3.0
 
-## Creativedraw API
+## Creativeboard API
 
 ### Features
 
@@ -842,7 +842,7 @@ Check out the [release notes](https://github.com/excalidraw/excalidraw/releases/
 
 - Remove publicPath so host can use `__webpack_public_path__` to host the assets[#2835](https://github.com/excalidraw/excalidraw/pull/2835)
 
-## Creativedraw Library
+## Creativeboard Library
 
 ### Features
 
@@ -852,7 +852,7 @@ Check out the [release notes](https://github.com/excalidraw/excalidraw/releases/
 - Support supplying custom scale when exporting canvas [#2904](https://github.com/excalidraw/excalidraw/pull/2904)
 - Show version in the stats dialog [#2908](https://github.com/excalidraw/excalidraw/pull/2908)
 - Add idle detection to collaboration feature [#2877](https://github.com/excalidraw/excalidraw/pull/2877)
-- Add view mode in Creativedraw [#2840](https://github.com/excalidraw/excalidraw/pull/2840)
+- Add view mode in Creativeboard [#2840](https://github.com/excalidraw/excalidraw/pull/2840)
 - Increase max zoom [#2881](https://github.com/excalidraw/excalidraw/pull/2881)
 - Remove copy & paste from context menu on desktop [#2872](https://github.com/excalidraw/excalidraw/pull/2872)
 - Add separators on context menu [#2659](https://github.com/excalidraw/excalidraw/pull/2659)
@@ -882,7 +882,7 @@ Check out the [release notes](https://github.com/excalidraw/excalidraw/releases/
 - Show correct state of Nerd stats in context menu when nerd stats dialog closed [#2874](https://github.com/excalidraw/excalidraw/pull/2874)
 - Remote pointers not accounting for offset [#2855](https://github.com/excalidraw/excalidraw/pull/2855)
 - Toggle help dialog when "shift+?" is pressed [#2828](https://github.com/excalidraw/excalidraw/pull/2828)
-- Add safe check for process so Creativedraw can be loaded via script [#2824](https://github.com/excalidraw/excalidraw/pull/2824)
+- Add safe check for process so Creativeboard can be loaded via script [#2824](https://github.com/excalidraw/excalidraw/pull/2824)
 - Fix UI pointer-events not disabled when dragging on canvas [#2856](https://github.com/excalidraw/excalidraw/pull/2856).
 - Fix remote pointers not accounting for offset [#2855](https://github.com/excalidraw/excalidraw/pull/2855).
 
@@ -899,7 +899,7 @@ Check out the [release notes](https://github.com/excalidraw/excalidraw/releases/
 
 ## 0.2.1
 
-## Creativedraw API
+## Creativeboard API
 
 ### Build
 
@@ -907,14 +907,14 @@ Check out the [release notes](https://github.com/excalidraw/excalidraw/releases/
 
 ## 0.2.0
 
-## Creativedraw API
+## Creativeboard API
 
 ### Features
 
-- Exported few [Extra API's](https://github.com/excalidraw/excalidraw/blob/master/src/packages/excalidraw/README.md#extra-apis) which can be used by the host to communicate with Creativedraw.
+- Exported few [Extra API's](https://github.com/excalidraw/excalidraw/blob/master/src/packages/excalidraw/README.md#extra-apis) which can be used by the host to communicate with Creativeboard.
 
 - Remove language picker, and add `langCode`, `renderFooter` [#2644](https://github.com/excalidraw/excalidraw/pull/2644):
-  - BREAKING: removed the language picker from UI. It is now the host app's responsibility to implement a language picker if desirable, using the newly added [`renderFooter`](https://github.com/excalidraw/excalidraw/blob/master/src/packages/excalidraw/README.md#renderFooter) prop. The reasoning is that the i18n should be controlled by the app itself, not by the nested Creativedraw component.
+  - BREAKING: removed the language picker from UI. It is now the host app's responsibility to implement a language picker if desirable, using the newly added [`renderFooter`](https://github.com/excalidraw/excalidraw/blob/master/src/packages/excalidraw/README.md#renderFooter) prop. The reasoning is that the i18n should be controlled by the app itself, not by the nested Creativeboard component.
   - Added [`langCode`](https://github.com/excalidraw/excalidraw/blob/master/src/packages/excalidraw/README.md#langCode) prop to control the UI language.
 - Add support for `exportToBackend` prop to allow host apps to implement shareable links [#2612](https://github.com/excalidraw/excalidraw/pull/2612/files)
 
@@ -922,7 +922,7 @@ Check out the [release notes](https://github.com/excalidraw/excalidraw/releases/
 
 - Hide collaboration button when the prop `onCollabButtonClick` is not provided [#2598](https://github.com/excalidraw/excalidraw/pull/2598)
 
-## Creativedraw Library
+## Creativeboard Library
 
 ### Features
 
@@ -931,7 +931,7 @@ Check out the [release notes](https://github.com/excalidraw/excalidraw/releases/
 - Require use of a preset dialog size; adjust dialog sizing [#2684](https://github.com/excalidraw/excalidraw/pull/2684)
 - Add line chart and paste dialog selection [#2670](https://github.com/excalidraw/excalidraw/pull/2670)
 - Tweak editing behavior [#2668](https://github.com/excalidraw/excalidraw/pull/2668)
-- Change title to Creativedraw after a timeout
+- Change title to Creativeboard after a timeout
 - Checkmark to toggle context-menu-items [#2645](https://github.com/excalidraw/excalidraw/pull/2645)
 - Add zoom to selection [#2522](https://github.com/excalidraw/excalidraw/pull/2522)
 - Insert Library items in the middle of the screen [#2527](https://github.com/excalidraw/excalidraw/pull/2527)

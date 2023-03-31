@@ -1,6 +1,6 @@
-# Creativedraw
+# Creativeboard
 
-**Creativedraw** is exported as a component to directly embed in your projects.
+**Creativeboard** is exported as a component to directly embed in your projects.
 
 ## Installation
 
@@ -28,9 +28,9 @@ If you want to load assets from a different path you can set a variable `window.
 
 **If you don't want to wait for the next stable release and try out the unreleased changes you can use `@excalidraw/excalidraw@next`.**
 
-## Dimensions of Creativedraw
+## Dimensions of Creativeboard
 
-Creativedraw takes _100%_ of `width` and `height` of the containing block so make sure the container in which you render Creativedraw has non zero dimensions.
+Creativeboard takes _100%_ of `width` and `height` of the containing block so make sure the container in which you render Creativeboard has non zero dimensions.
 
 ### Demo
 

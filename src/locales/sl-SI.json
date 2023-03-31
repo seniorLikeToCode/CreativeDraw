@@ -44,7 +44,7 @@
     "withBackground": "Ozadje",
     "exportEmbedScene": "Vdelaj sceno",
     "exportEmbedScene_details": "Podatki o sceni bodo shranjeni v izvoženo datoteko PNG/SVG, tako da bo sceno mogoče obnoviti iz nje.\nTo bo povečalo velikost izvožene datoteke.",
-    "addWatermark": "Dodaj \"Izdelano z Creativedraw\"",
+    "addWatermark": "Dodaj \"Izdelano z Creativeboard\"",
     "handDrawn": "Ročno narisano",
     "normal": "Običajno",
     "code": "Koda",
@@ -77,7 +77,7 @@
     "untitled": "Neimenovana",
     "name": "Ime",
     "yourName": "Vaše ime",
-    "madeWithExcalidraw": "Izdelano z Creativedraw",
+    "madeWithExcalidraw": "Izdelano z Creativeboard",
     "group": "Združi izbor",
     "ungroup": "Razdruži izbor",
     "collaborators": "Sodelavci",
@@ -105,7 +105,7 @@
     "showBackground": "Prikaži izbirnik barv ozadja",
     "toggleTheme": "Obrni temo",
     "personalLib": "Osebna knjižnica",
-    "excalidrawLib": "Knjižnica Creativedraw",
+    "excalidrawLib": "Knjižnica Creativeboard",
     "decreaseFontSize": "Zmanjšaj velikost pisave",
     "increaseFontSize": "Povečaj velikost pisave",
     "unbindText": "Veži besedilo",
@@ -181,7 +181,7 @@
     "cannotExportEmptyCanvas": "Izvoz prazne scene ni mogoč.",
     "couldNotCopyToClipboard": "Kopiranje v odložišče ni uspelo.",
     "decryptFailed": "Dešifriranje podatkov ni uspelo.",
-    "uploadedSecurly": "Nalaganje je bilo zaščiteno s šifriranjem od konca do konca, kar pomeni, da strežnik Creativedraw in tretje osebe ne morejo brati vsebine.",
+    "uploadedSecurly": "Nalaganje je bilo zaščiteno s šifriranjem od konca do konca, kar pomeni, da strežnik Creativeboard in tretje osebe ne morejo brati vsebine.",
     "loadSceneOverridePrompt": "Nalaganje zunanje risbe bo nadomestilo vašo obstoječo vsebino. Ali želite nadaljevati?",
     "collabStopOverridePrompt": "Ustavitev seje bo prepisala vašo prejšnjo, lokalno shranjeno risbo. Ali ste prepričani?\n\n(Če želite obdržati lokalno risbo, preprosto zaprite zavihek brskalnika.)",
     "errorAddingToLibrary": "Elementa ni bilo mogoče dodati v knjižnico",
@@ -189,7 +189,7 @@
     "confirmAddLibrary": "S tem boste v vašo knjižnico dodali oblike ({{numShapes}}). Ali ste prepričani?",
     "imageDoesNotContainScene": "Zdi se, da ta slika ne vsebuje podatkov o sceni. Ali ste med izvozom omogočili vdelavo scene?",
     "cannotRestoreFromImage": "Scene ni bilo mogoče obnoviti iz te slikovne datoteke",
-    "invalidSceneUrl": "S priloženega URL-ja ni bilo mogoče uvoziti scene. Je napačno oblikovana ali pa ne vsebuje veljavnih podatkov Creativedraw JSON.",
+    "invalidSceneUrl": "S priloženega URL-ja ni bilo mogoče uvoziti scene. Je napačno oblikovana ali pa ne vsebuje veljavnih podatkov Creativeboard JSON.",
     "resetLibrary": "To bo počistilo vašo knjižnico. Ali ste prepričani?",
     "removeItemsFromsLibrary": "Izbriši elemente ({{count}}) iz knjižnice?",
     "invalidEncryptionKey": "Ključ za šifriranje mora vsebovati 22 znakov. Sodelovanje v živo je onemogočeno.",
@@ -276,7 +276,7 @@
     "desc_inProgressIntro": "Seja sodelovanja v živo je v teku.",
     "desc_shareLink": "Delite to povezavo z vsemi, s katerimi želite sodelovati:",
     "desc_exitSession": "Ustavitev seje vas bo odklopila od sobe, vendar boste lahko lokalno nadaljevali delo s sceno. To pa ne bo vplivalo na druge osebe. Druge osebe bodo še vedno lahko sodelovale v svoji različici.",
-    "shareTitle": "Pridruži se seji sodelovanja v živo na Creativedraw"
+    "shareTitle": "Pridruži se seji sodelovanja v živo na Creativeboard"
   },
   "errorDialog": {
     "title": "Napaka"
@@ -288,9 +288,9 @@
     "link_title": "Povezava za deljenje",
     "link_details": "Izvoz kot povezava samo za branje.",
     "link_button": "Izvoz kot povezava",
-    "excalidrawplus_description": "Shrani sceno v svoj delovni prostor Creativedraw+.",
+    "excalidrawplus_description": "Shrani sceno v svoj delovni prostor Creativeboard+.",
     "excalidrawplus_button": "Izvoz",
-    "excalidrawplus_exportError": "Trenutno ni bilo mogoče izvoziti v Creativedraw+..."
+    "excalidrawplus_exportError": "Trenutno ni bilo mogoče izvoziti v Creativeboard+..."
   },
   "helpDialog": {
     "blog": "Preberite naš blog",
@@ -373,8 +373,8 @@
     "removeItemsFromLib": "Odstran izbrane elemente iz knjižnice"
   },
   "encrypted": {
-    "tooltip": "Vaše risbe so šifrirane od konca do konca, tako da jih strežniki Creativedraw nikoli ne bodo videli.",
-    "link": "Blog objava o šifriranju od konca do konca v Creativedraw"
+    "tooltip": "Vaše risbe so šifrirane od konca do konca, tako da jih strežniki Creativeboard nikoli ne bodo videli.",
+    "link": "Blog objava o šifriranju od konca do konca v Creativeboard"
   },
   "stats": {
     "angle": "Kot",
@@ -452,7 +452,7 @@
   "welcomeScreen": {
     "app": {
       "center_heading": "Vsi vaši podatki so shranjeni lokalno v vašem brskalniku.",
-      "center_heading_plus": "Ste namesto tega želeli odpreti Creativedraw+?",
+      "center_heading_plus": "Ste namesto tega želeli odpreti Creativeboard+?",
       "menuHint": "Izvoz, nastavitve, jeziki, ..."
     },
     "defaults": {

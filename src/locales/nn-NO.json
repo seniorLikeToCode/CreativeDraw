@@ -44,7 +44,7 @@
     "withBackground": "Bakgrunn",
     "exportEmbedScene": "Bygg inn scene",
     "exportEmbedScene_details": "Scenedata vert lagra i den eksporterte PNG- eller SVG-fila slik at scena kan bli gjenopprettast frå den. Dette vil auke eksportert filstorleik.",
-    "addWatermark": "Legg til «Laga med Creativedraw»",
+    "addWatermark": "Legg til «Laga med Creativeboard»",
     "handDrawn": "Handteikna",
     "normal": "Normal",
     "code": "Kode",
@@ -77,7 +77,7 @@
     "untitled": "Utan namn",
     "name": "Namn",
     "yourName": "Namnet ditt",
-    "madeWithExcalidraw": "Laga med Creativedraw",
+    "madeWithExcalidraw": "Laga med Creativeboard",
     "group": "Grupper utval",
     "ungroup": "Avgrupper utval",
     "collaborators": "Samarbeidarar",
@@ -105,7 +105,7 @@
     "showBackground": "Vis fargeveljar for bakgrunn",
     "toggleTheme": "Veksle tema",
     "personalLib": "Personleg bibliotek",
-    "excalidrawLib": "Creativedraw-bibliotek",
+    "excalidrawLib": "Creativeboard-bibliotek",
     "decreaseFontSize": "Gjer skriftstorleik mindre",
     "increaseFontSize": "Gjer skriftstorleik større",
     "unbindText": "Avbind tekst",
@@ -181,7 +181,7 @@
     "cannotExportEmptyCanvas": "Kan ikkje eksportere eit tomt lerret.",
     "couldNotCopyToClipboard": "",
     "decryptFailed": "Kunne ikkje dekryptere data.",
-    "uploadedSecurly": "Opplastinga er kryptert og er ikkje mogleg å lese av Creativedraw-serveren eller tredjepartar.",
+    "uploadedSecurly": "Opplastinga er kryptert og er ikkje mogleg å lese av Creativeboard-serveren eller tredjepartar.",
     "loadSceneOverridePrompt": "Innlasting av ekstern teikning erstattar ditt eksisterande innhald. Ynskjer du å fortsette?",
     "collabStopOverridePrompt": "Viss du avsluttar økta overskriv du den førre, lokalt lagra teikninga di. Er du sikker?\n\n(Ønsker du å halde fram med denne? Då er det berre å lukke denne fana.)",
     "errorAddingToLibrary": "Kunne ikkje legge elementet i biblioteket",
@@ -189,7 +189,7 @@
     "confirmAddLibrary": "Dette vil legge til {{numShapes}} form(er) i biblioteket ditt. Er du sikker?",
     "imageDoesNotContainScene": "Dette biletet ser ikkje ut til å ha noko scenedata. Har du skrutt på innbygging av scene medan eksporteringa heldt på?",
     "cannotRestoreFromImage": "Scena kunne ikkje gjenopprettast frå denne biletfila",
-    "invalidSceneUrl": "Kunne ikkje hente noko scene frå den URL-en. Ho er anten øydelagd eller inneheld ikkje gyldig Creativedraw JSON-data.",
+    "invalidSceneUrl": "Kunne ikkje hente noko scene frå den URL-en. Ho er anten øydelagd eller inneheld ikkje gyldig Creativeboard JSON-data.",
     "resetLibrary": "Dette vil fjerne alt innhald frå biblioteket. Er du sikker?",
     "removeItemsFromsLibrary": "Slette {{count}} element frå biblioteket?",
     "invalidEncryptionKey": "Krypteringsnøkkelen må ha 22 teikn. Sanntidssamarbeid er deaktivert.",
@@ -276,7 +276,7 @@
     "desc_inProgressIntro": "Sanntids-samarbeidsøkt er no i gang.",
     "desc_shareLink": "Del denne lenka med dei du vil samarbeide med:",
     "desc_exitSession": "Dersom du avsluttar økta blir du kopla frå rommet, men du kan halde fram med å arbeide med scena lokalt. Ver merksam på at dette ikkje vil påverke andre personar, og desse vil framleis ha moglegheit til å samarbeide på deira eigen versjon.",
-    "shareTitle": "Bli med på eit sanntidssamarbeid på Creativedraw"
+    "shareTitle": "Bli med på eit sanntidssamarbeid på Creativeboard"
   },
   "errorDialog": {
     "title": "Feil"
@@ -288,9 +288,9 @@
     "link_title": "Deleleg lenke",
     "link_details": "Eksporter som skrivebeskytta lenke.",
     "link_button": "Eksporter til lenke",
-    "excalidrawplus_description": "Lagre scena til Creativedraw+-arbeidsområdet ditt.",
+    "excalidrawplus_description": "Lagre scena til Creativeboard+-arbeidsområdet ditt.",
     "excalidrawplus_button": "Eksporter",
-    "excalidrawplus_exportError": "Kunne ikkje eksportere til Creativedraw+ akkurat no..."
+    "excalidrawplus_exportError": "Kunne ikkje eksportere til Creativeboard+ akkurat no..."
   },
   "helpDialog": {
     "blog": "Les bloggen vår",
@@ -373,8 +373,8 @@
     "removeItemsFromLib": "Fjern valde element frå biblioteket"
   },
   "encrypted": {
-    "tooltip": "Teikningane dine er ende-til-ende-krypterte slik at Creativedraw sine serverar aldri får sjå dei.",
-    "link": "Blogginnlegg om ende-til-ende-kryptering i Creativedraw"
+    "tooltip": "Teikningane dine er ende-til-ende-krypterte slik at Creativeboard sine serverar aldri får sjå dei.",
+    "link": "Blogginnlegg om ende-til-ende-kryptering i Creativeboard"
   },
   "stats": {
     "angle": "Vinkel",

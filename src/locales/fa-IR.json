@@ -44,7 +44,7 @@
     "withBackground": "پس زمینه",
     "exportEmbedScene": "تعبیه صحنه",
     "exportEmbedScene_details": "متحوای صحنه به فایل خروجی SVG/PNG اضافه خواهد شد برای بازیابی صحنه به آن اضافه خواهد شد.\nباعث افزایش حجم فایل خروجی میشود.",
-    "addWatermark": "\"ساخته شده با Creativedraw\" را اضافه کن",
+    "addWatermark": "\"ساخته شده با Creativeboard\" را اضافه کن",
     "handDrawn": "دست نویس",
     "normal": "عادی",
     "code": "کد",
@@ -77,7 +77,7 @@
     "untitled": "بدون عنوان",
     "name": "نام",
     "yourName": "نام شما",
-    "madeWithExcalidraw": "ساخته شده با Creativedraw",
+    "madeWithExcalidraw": "ساخته شده با Creativeboard",
     "group": "گروهبندی انتخابها",
     "ungroup": "حذف گروهبندی انتخابها",
     "collaborators": "همکاران",
@@ -181,7 +181,7 @@
     "cannotExportEmptyCanvas": "بوم خالی قابل تبدیل نیست.",
     "couldNotCopyToClipboard": "به کلیپ بورد کپی نشد.",
     "decryptFailed": "رمزگشایی داده ها امکان پذیر نیست.",
-    "uploadedSecurly": "آپلود با رمزگذاری دو طرفه انجام میشود، به این معنی که سرور Creativedraw و اشخاص ثالث نمی توانند مطالب شما را بخوانند.",
+    "uploadedSecurly": "آپلود با رمزگذاری دو طرفه انجام میشود، به این معنی که سرور Creativeboard و اشخاص ثالث نمی توانند مطالب شما را بخوانند.",
     "loadSceneOverridePrompt": "بارگزاری یک طرح خارجی محتوای فعلی رو از بین میبرد. آیا میخواهید ادامه دهید؟",
     "collabStopOverridePrompt": "با توقف بوم نقاشی، نقشه قبلی و ذخیره شده محلی شما را بازنویسی می کند. مطمئنی؟\n\n(اگر می خواهید نقاشی محلی خود را حفظ کنید، به سادگی برگه مرورگر را ببندید.)",
     "errorAddingToLibrary": "مورد به کتابخانه اضافه نشد",
@@ -189,7 +189,7 @@
     "confirmAddLibrary": "{{numShapes}} از اشکال به کتابخانه شما اضافه خواهد شد. مطمئن هستید؟",
     "imageDoesNotContainScene": "به نظر نمی رسد این تصویر حاوی داده های بوم نقاشی باشد. آیا جاسازی صحنه را در حین خروجی فعال کرده اید?",
     "cannotRestoreFromImage": "صحنه را نمی توان از این فایل تصویری بازیابی کرد",
-    "invalidSceneUrl": "بوم نقاشی از آدرس ارائه شده وارد نشد. این یا نادرست است، یا حاوی داده Creativedraw JSON معتبر نیست.",
+    "invalidSceneUrl": "بوم نقاشی از آدرس ارائه شده وارد نشد. این یا نادرست است، یا حاوی داده Creativeboard JSON معتبر نیست.",
     "resetLibrary": "ین کار کل صفحه را پاک میکند. آیا مطمئنید?",
     "removeItemsFromsLibrary": "حذف {{count}} آیتم(ها) از کتابخانه?",
     "invalidEncryptionKey": "کلید رمزگذاری باید 22 کاراکتر باشد. همکاری زنده غیرفعال است.",
@@ -276,7 +276,7 @@
     "desc_inProgressIntro": "جلسه همکاری آنلاین در حال انجام است.",
     "desc_shareLink": "این لینک را با هر کسی که می خواهید با او همکاری کنید به اشتراک بگذارید:",
     "desc_exitSession": "با پایان دادن جلسه، شما از اتاق حذف میکند، اما می توانید به صورت محلی کار خود را با بوم ادامه دهید. توجه داشته باشید که این مورد بر سایر افراد تأثیر نمی گذارد و همچنان می توانند در نسخه خود همکاری کنند.",
-    "shareTitle": "به یک جلسه همکاری زنده در Creativedraw بپیوندید"
+    "shareTitle": "به یک جلسه همکاری زنده در Creativeboard بپیوندید"
   },
   "errorDialog": {
     "title": "خطا"
@@ -288,9 +288,9 @@
     "link_title": "لینک قابل اشتراک‌گذاری",
     "link_details": "خروجی به عنوان یک پیوند فقط خواندنی.",
     "link_button": "خروجی در فایل",
-    "excalidrawplus_description": "صحنه را در فضای کاری Creativedraw+ خود ذخیره کنید.",
+    "excalidrawplus_description": "صحنه را در فضای کاری Creativeboard+ خود ذخیره کنید.",
     "excalidrawplus_button": "خروجی گرفتن",
-    "excalidrawplus_exportError": "در حال حاضر نمی‌توان به Creativedraw+ صادر کرد..."
+    "excalidrawplus_exportError": "در حال حاضر نمی‌توان به Creativeboard+ صادر کرد..."
   },
   "helpDialog": {
     "blog": "بلاگ ما را بخوانید",
@@ -373,8 +373,8 @@
     "removeItemsFromLib": "موارد انتخاب شده از موارد پسندیده حذف شوند"
   },
   "encrypted": {
-    "tooltip": "شما در یک محیط رمزگزاری شده دو طرفه در حال طراحی هستید پس Creativedraw هرگز طرح های شما را نمیبند.",
-    "link": "پست وبلاگ در مورد رمزگذاری سرتاسر در Creativedraw"
+    "tooltip": "شما در یک محیط رمزگزاری شده دو طرفه در حال طراحی هستید پس Creativeboard هرگز طرح های شما را نمیبند.",
+    "link": "پست وبلاگ در مورد رمزگذاری سرتاسر در Creativeboard"
   },
   "stats": {
     "angle": "زاویه",

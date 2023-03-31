@@ -8,7 +8,7 @@ interface ButtonProps extends React.HTMLAttributes<HTMLButtonElement> {
 }
 
 /**
- * A generic button component that follows Creativedraw's design system.
+ * A generic button component that follows Creativeboard's design system.
  * Style can be customised using `className` or `style` prop.
  * Accepts all props that a regular `button` element accepts.
  */
