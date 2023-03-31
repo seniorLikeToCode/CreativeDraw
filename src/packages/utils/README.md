@@ -6,7 +6,7 @@
 npm install @excalidraw/utils
 ```
 
-If you prefer Yarn over npm, use this command to install the Excalidraw utils package:
+If you prefer Yarn over npm, use this command to install the Creativedraw utils package:
 
 ```bash
 yarn add @excalidraw/utils
@@ -20,15 +20,15 @@ See [`serializeAsJSON`](https://github.com/excalidraw/excalidraw/blob/master/src
 
 ### `exportToBlob` (async)
 
-Export an Excalidraw diagram to a [Blob](https://developer.mozilla.org/en-US/docs/Web/API/Blob).
+Export an Creativedraw diagram to a [Blob](https://developer.mozilla.org/en-US/docs/Web/API/Blob).
 
 ### `exportToSvg`
 
-Export an Excalidraw diagram to a [SVGElement](https://developer.mozilla.org/en-US/docs/Web/API/SVGElement).
+Export an Creativedraw diagram to a [SVGElement](https://developer.mozilla.org/en-US/docs/Web/API/SVGElement).
 
 ## Usage
 
-Excalidraw utils is published as a UMD (Universal Module Definition). If you are using a module bundler (for instance, Webpack), you can import it as an ES6 module:
+Creativedraw utils is published as a UMD (Universal Module Definition). If you are using a module bundler (for instance, Webpack), you can import it as an ES6 module:
 
 ```js
 import { exportToSvg, exportToBlob } from "@excalidraw/utils";
@@ -50,7 +50,7 @@ Here's the `exportToBlob` and `exportToSvg` functions in action:
 const excalidrawDiagram = {
   type: "excalidraw",
   version: 2,
-  source: "https://excalidraw.com",
+  source: "https://creative-draw.vercel.app",
   elements: [
     {
       id: "vWrqOAfkind2qcm7LDAGZ",
@@ -82,11 +82,11 @@ const excalidrawDiagram = {
   },
 };
 
-// Export the Excalidraw diagram as SVG string
+// Export the Creativedraw diagram as SVG string
 const svg = exportToSvg(excalidrawDiagram);
 console.log(svg.outerHTML);
 
-// Export the Excalidraw diagram as PNG Blob URL
+// Export the Creativedraw diagram as PNG Blob URL
 (async () => {
   const blob = await exportToBlob({
     ...excalidrawDiagram,

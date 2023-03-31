@@ -9,7 +9,7 @@ const root = createRoot(rootElement);
 root.render(
   <StrictMode>
     <App
-      appTitle={"Excalidraw Example"}
+      appTitle={"Creativedraw Example"}
       useCustom={(api: any, args?: any[]) => {}}
     />
   </StrictMode>,

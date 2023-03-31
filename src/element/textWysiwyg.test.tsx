@@ -461,7 +461,7 @@ describe("textWysiwyg", () => {
       fireEvent.change(textarea, {
         target: {
           value:
-            "Excalidraw is an opensource virtual collaborative whiteboard for sketching hand-drawn like diagrams!",
+            "Creativedraw is an opensource virtual collaborative whiteboard for sketching hand-drawn like diagrams!",
         },
       });
 
@@ -1318,7 +1318,7 @@ describe("textWysiwyg", () => {
 
       fireEvent.change(editor, {
         target: {
-          value: "Excalidraw is an opensource virtual collaborative whiteboard",
+          value: "Creativedraw is an opensource virtual collaborative whiteboard",
         },
       });
 
@@ -1336,7 +1336,7 @@ describe("textWysiwyg", () => {
       expect(textElement.height).toBe(24);
       expect(textElement.textAlign).toBe(TEXT_ALIGN.LEFT);
       expect((textElement as ExcalidrawTextElement).text).toBe(
-        "Excalidraw is an opensource virtual collaborative whiteboard",
+        "Creativedraw is an opensource virtual collaborative whiteboard",
       );
 
       API.setSelectedElements([textElement]);
@@ -1387,7 +1387,7 @@ describe("textWysiwyg", () => {
       );
       expect(h.elements[2] as ExcalidrawTextElement).toEqual(
         expect.objectContaining({
-          text: "Excalidraw is an opensource virtual collaborative whiteboard",
+          text: "Creativedraw is an opensource virtual collaborative whiteboard",
           verticalAlign: VERTICAL_ALIGN.MIDDLE,
           textAlign: TEXT_ALIGN.LEFT,
           boundElements: null,

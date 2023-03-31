@@ -44,7 +44,7 @@
     "withBackground": "Fundal",
     "exportEmbedScene": "Încorporare scenă",
     "exportEmbedScene_details": "Datele scenei vor fi salvate în fișierul PNG/SVG exportat, astfel că scena va putea fi restaurată din acesta.\nVa crește dimensiunea fișierului exportat.",
-    "addWatermark": "Adaugă „Realizat cu Excalidraw”",
+    "addWatermark": "Adaugă „Realizat cu Creativedraw”",
     "handDrawn": "Scris de mână",
     "normal": "Normal",
     "code": "Cod",
@@ -77,7 +77,7 @@
     "untitled": "Nedenumit",
     "name": "Nume",
     "yourName": "Numele tău",
-    "madeWithExcalidraw": "Realizat cu Excalidraw",
+    "madeWithExcalidraw": "Realizat cu Creativedraw",
     "group": "Grupare selecție",
     "ungroup": "Degrupare selecție",
     "collaborators": "Colaboratori",
@@ -105,7 +105,7 @@
     "showBackground": "Afișare selector culoare fundal",
     "toggleTheme": "Comutare temă",
     "personalLib": "Biblioteca personală",
-    "excalidrawLib": "Biblioteca Excalidraw",
+    "excalidrawLib": "Biblioteca Creativedraw",
     "decreaseFontSize": "Micșorează dimensiunea fontului",
     "increaseFontSize": "Mărește dimensiunea fontului",
     "unbindText": "Deconectare text",
@@ -181,7 +181,7 @@
     "cannotExportEmptyCanvas": "Nu se poate exporta pânza goală.",
     "couldNotCopyToClipboard": "Nu s-a putut copia în memoria temporară.",
     "decryptFailed": "Datele nu au putut fi decriptate.",
-    "uploadedSecurly": "Încărcarea a fost securizată prin criptare integrală, însemnând că serverul Excalidraw și terții nu pot citi conținutul.",
+    "uploadedSecurly": "Încărcarea a fost securizată prin criptare integrală, însemnând că serverul Creativedraw și terții nu pot citi conținutul.",
     "loadSceneOverridePrompt": "Încărcarea desenului extern va înlocui conținutul existent. Dorești să continui?",
     "collabStopOverridePrompt": "Oprirea sesiunii va suprascrie desenul anterior stocat local. Confirmi alegerea?\n\n(Dacă vrei să păstrezi desenul local, pur și simplu închide fila navigatorului în schimb.)",
     "errorAddingToLibrary": "Elementul nu a putut fi adăugat în bibliotecă",
@@ -189,7 +189,7 @@
     "confirmAddLibrary": "Această acțiune va adăuga {{numShapes}} formă(e) la biblioteca ta. Confirmi?",
     "imageDoesNotContainScene": "Această imagine nu pare să conțină date de scenă. Ai activat încorporarea scenei în timpul exportului?",
     "cannotRestoreFromImage": "Scena nu a putut fi restaurată din acest fișier de imagine",
-    "invalidSceneUrl": "Scena nu a putut fi importată din URL-ul furnizat. Este fie incorect formată, fie nu conține date JSON Excalidraw valide.",
+    "invalidSceneUrl": "Scena nu a putut fi importată din URL-ul furnizat. Este fie incorect formată, fie nu conține date JSON Creativedraw valide.",
     "resetLibrary": "Această opțiune va elimina conținutul din bibliotecă. Confirmi?",
     "removeItemsFromsLibrary": "Ștergi {{count}} element(e) din bibliotecă?",
     "invalidEncryptionKey": "Cheia de criptare trebuie să aibă 22 de caractere. Colaborarea în direct este dezactivată.",
@@ -276,7 +276,7 @@
     "desc_inProgressIntro": "Sesiunea de colaborare în direct este în curs de desfășurare.",
     "desc_shareLink": "Distribuie acest URL persoanelor cu care dorești să colaborezi:",
     "desc_exitSession": "Oprirea sesiunii te va deconecta de la sală, însă vei putea lucra în continuare, pe plan local, cu scena. Reține că această opțiune nu va afecta alte persoane, iar acestea vor putea să colaboreze în continuare pe versiunea lor.",
-    "shareTitle": "Alătură-te unei sesiuni de colaborare în direct pe Excalidraw"
+    "shareTitle": "Alătură-te unei sesiuni de colaborare în direct pe Creativedraw"
   },
   "errorDialog": {
     "title": "Eroare"
@@ -288,9 +288,9 @@
     "link_title": "URL partajabil",
     "link_details": "Exportă ca URL doar în citire.",
     "link_button": "Exportare în URL",
-    "excalidrawplus_description": "Salvează scena în spațiul de lucru Excalidraw+.",
+    "excalidrawplus_description": "Salvează scena în spațiul de lucru Creativedraw+.",
     "excalidrawplus_button": "Exportare",
-    "excalidrawplus_exportError": "Excalidraw+ nu a putut fi exportat în acest moment..."
+    "excalidrawplus_exportError": "Creativedraw+ nu a putut fi exportat în acest moment..."
   },
   "helpDialog": {
     "blog": "Citește blogul nostru",
@@ -373,8 +373,8 @@
     "removeItemsFromLib": "Elimină elementele selectate din bibliotecă"
   },
   "encrypted": {
-    "tooltip": "Desenele tale sunt criptate integral, astfel că serverele Excalidraw nu le vor vedea niciodată.",
-    "link": "Articol de blog pe criptarea integrală din Excalidraw"
+    "tooltip": "Desenele tale sunt criptate integral, astfel că serverele Creativedraw nu le vor vedea niciodată.",
+    "link": "Articol de blog pe criptarea integrală din Creativedraw"
   },
   "stats": {
     "angle": "Unghi",
@@ -452,7 +452,7 @@
   "welcomeScreen": {
     "app": {
       "center_heading": "Toate datele tale sunt salvate local în navigatorul tău.",
-      "center_heading_plus": "Ai vrut să mergi în schimb la Excalidraw+?",
+      "center_heading_plus": "Ai vrut să mergi în schimb la Creativedraw+?",
       "menuHint": "Exportare, preferințe, limbi, ..."
     },
     "defaults": {

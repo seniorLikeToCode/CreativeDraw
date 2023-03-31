@@ -122,7 +122,7 @@ export const exportToSvg = async (
     svgRoot.setAttribute("filter", THEME_FILTER);
   }
 
-  let assetPath = "https://excalidraw.com/";
+  let assetPath = "https://creative-draw.vercel.app/";
 
   // Asset path needs to be determined only when using package
   if (process.env.IS_EXCALIDRAW_NPM_PACKAGE) {

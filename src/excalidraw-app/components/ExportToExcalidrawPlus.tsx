@@ -83,7 +83,7 @@ export const ExportToExcalidrawPlus: React.FC<{
   return (
     <Card color="primary">
       <div className="Card-icon">{excalidrawPlusIcon}</div>
-      <h2>Excalidraw+</h2>
+      <h2>Creativedraw+</h2>
       <div className="Card-details">
         {t("exportDialog.excalidrawplus_description")}
       </div>

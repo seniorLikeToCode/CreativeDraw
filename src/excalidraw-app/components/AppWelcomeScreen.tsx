@@ -8,20 +8,20 @@ export const AppWelcomeScreen: React.FC<{
   setCollabDialogShown: (toggle: boolean) => any;
 }> = React.memo((props) => {
   const { t } = useI18n();
-  let headingContent = "CreativeBoard";
+  let headingContent = "Creative Board";
 
   // if (isExcalidrawPlusSignedUser) {
   //   headingContent = t("welcomeScreen.app.center_heading_plus")
-  //     .split(/(Excalidraw\+)/)
+  //     .split(/(Creativedraw\+)/)
   //     .map((bit, idx) => {
-  //       if (bit === "Excalidraw+") {
+  //       if (bit === "Creativedraw+") {
   //         return (
   //           <a
   //             style={{ pointerEvents: "all" }}
   //             href={`${process.env.REACT_APP_PLUS_APP}?utm_source=excalidraw&utm_medium=app&utm_content=welcomeScreenSignedInUser`}
   //             key={idx}
   //           >
-  //             Excalidraw+
+  //             Creativedraw+
   //           </a>
   //         );
   //       }
@@ -55,7 +55,7 @@ export const AppWelcomeScreen: React.FC<{
               shortcut={null}
               icon={PlusPromoIcon}
             >
-              Try Excalidraw Plus!
+              Try Creativedraw Plus!
             </WelcomeScreen.Center.MenuItemLink>
           )} */}
         </WelcomeScreen.Center.Menu>

@@ -44,7 +44,7 @@
     "withBackground": "الخلفية",
     "exportEmbedScene": "تضمين المشهد",
     "exportEmbedScene_details": "سيتم حفظ بيانات المشهد في ملف PNG/SVG المصدّر بحيث يمكن استعادة المشهد منه.\nسيزيد حجم الملف المصدر.",
-    "addWatermark": "إضافة \"مصنوعة بواسطة Excalidraw\"",
+    "addWatermark": "إضافة \"مصنوعة بواسطة Creativedraw\"",
     "handDrawn": "رسم باليد",
     "normal": "عادي",
     "code": "رمز",
@@ -77,7 +77,7 @@
     "untitled": "غير معنون",
     "name": "الاسم",
     "yourName": "اسمك",
-    "madeWithExcalidraw": "مصنوعة بواسطة Excalidraw",
+    "madeWithExcalidraw": "مصنوعة بواسطة Creativedraw",
     "group": "تحديد مجموعة",
     "ungroup": "إلغاء تحديد مجموعة",
     "collaborators": "المتعاونون",
@@ -181,7 +181,7 @@
     "cannotExportEmptyCanvas": "لا يمكن تصدير لوحة فارغة.",
     "couldNotCopyToClipboard": "تعذر النسخ إلى الحافظة.",
     "decryptFailed": "تعذر فك تشفير البيانات.",
-    "uploadedSecurly": "تم تأمين التحميل بتشفير النهاية إلى النهاية، مما يعني أن خادوم Excalidraw والأطراف الثالثة لا يمكنها قراءة المحتوى.",
+    "uploadedSecurly": "تم تأمين التحميل بتشفير النهاية إلى النهاية، مما يعني أن خادوم Creativedraw والأطراف الثالثة لا يمكنها قراءة المحتوى.",
     "loadSceneOverridePrompt": "تحميل الرسم الخارجي سيحل محل المحتوى الموجود لديك. هل ترغب في المتابعة؟",
     "collabStopOverridePrompt": "إيقاف الجلسة سيؤدي إلى الكتابة فوق رسومك السابقة المخزنة داخليا. هل أنت متأكد؟\n\n(إذا كنت ترغب في الاحتفاظ برسمك المخزن داخليا، ببساطة أغلق علامة تبويب المتصفح بدلاً من ذلك.)",
     "errorAddingToLibrary": "تعذر إضافة العنصر للمكتبة",
@@ -189,7 +189,7 @@
     "confirmAddLibrary": "هذا سيضيف {{numShapes}} شكل إلى مكتبتك. هل أنت متأكد؟",
     "imageDoesNotContainScene": "يبدو أن هذه الصورة لا تحتوي على أي بيانات مشهد. هل قمت بتمكين تضمين المشهد أثناء التصدير؟",
     "cannotRestoreFromImage": "تعذر استعادة المشهد من ملف الصورة",
-    "invalidSceneUrl": "تعذر استيراد المشهد من عنوان URL المتوفر. إما أنها مشوهة، أو لا تحتوي على بيانات Excalidraw JSON صالحة.",
+    "invalidSceneUrl": "تعذر استيراد المشهد من عنوان URL المتوفر. إما أنها مشوهة، أو لا تحتوي على بيانات Creativedraw JSON صالحة.",
     "resetLibrary": "هذا سوف يمسح مكتبتك. هل أنت متأكد؟",
     "removeItemsFromsLibrary": "حذف {{count}} عنصر (عناصر) من المكتبة؟",
     "invalidEncryptionKey": "مفتاح التشفير يجب أن يكون من 22 حرفاً. التعاون المباشر معطل.",
@@ -276,7 +276,7 @@
     "desc_inProgressIntro": "تجري الآن المشاركة الحية.",
     "desc_shareLink": "شارك هذا الرابط مع أي شخص تريده أن يشاركك الجلسة:",
     "desc_exitSession": "إيقاف الجلسة سيؤدي إلى قطع الاتصال الخاص بك من الغرفة، ولكن ستتمكن من مواصلة العمل مع المشهد، محليا. لاحظ أن هذا لن يؤثر على الأشخاص الآخرين، و سيظلون قادرين على التعاون في إصدارهم.",
-    "shareTitle": "الانضمام إلى جلسة تعاون حية على Excalidraw"
+    "shareTitle": "الانضمام إلى جلسة تعاون حية على Creativedraw"
   },
   "errorDialog": {
     "title": "خطأ"
@@ -288,9 +288,9 @@
     "link_title": "رابط قابل للمشاركة",
     "link_details": "صدر الملف للمشاهدة فقط.",
     "link_button": "التصدير كرابط",
-    "excalidrawplus_description": "حفظ المشهد إلى مساحة العمل +Excalidraw الخاصة بك.",
+    "excalidrawplus_description": "حفظ المشهد إلى مساحة العمل +Creativedraw الخاصة بك.",
     "excalidrawplus_button": "تصدير",
-    "excalidrawplus_exportError": "تعذر التصدير إلى +Excalidraw في الوقت الحالي..."
+    "excalidrawplus_exportError": "تعذر التصدير إلى +Creativedraw في الوقت الحالي..."
   },
   "helpDialog": {
     "blog": "اقرأ مدونتنا",
@@ -373,8 +373,8 @@
     "removeItemsFromLib": "إزالة العناصر المحددة من المكتبة"
   },
   "encrypted": {
-    "tooltip": "رسوماتك مشفرة من النهاية إلى النهاية حتى أن خوادم Excalidraw لن تراها أبدا.",
-    "link": "مشاركة المدونة في التشفير من النهاية إلى النهاية في Excalidraw"
+    "tooltip": "رسوماتك مشفرة من النهاية إلى النهاية حتى أن خوادم Creativedraw لن تراها أبدا.",
+    "link": "مشاركة المدونة في التشفير من النهاية إلى النهاية في Creativedraw"
   },
   "stats": {
     "angle": "الزاوية",

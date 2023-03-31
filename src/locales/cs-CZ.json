@@ -44,7 +44,7 @@
     "withBackground": "Pozadí",
     "exportEmbedScene": "Vložit scénu",
     "exportEmbedScene_details": "Data scény budou uložena do exportovaného souboru PNG/SVG tak, aby z něj mohla být scéna obnovena.\nZvýší se velikost exportovaného souboru.",
-    "addWatermark": "Přidat \"Vyrobeno s Excalidraw\"",
+    "addWatermark": "Přidat \"Vyrobeno s Creativedraw\"",
     "handDrawn": "Od ruky",
     "normal": "Normální",
     "code": "Kód",
@@ -77,7 +77,7 @@
     "untitled": "Bez názvu",
     "name": "Název",
     "yourName": "Vaše jméno",
-    "madeWithExcalidraw": "Vytvořeno v Excalidraw",
+    "madeWithExcalidraw": "Vytvořeno v Creativedraw",
     "group": "Sloučit výběr do skupiny",
     "ungroup": "Zrušit sloučení skupiny",
     "collaborators": "Spolupracovníci",
@@ -181,7 +181,7 @@
     "cannotExportEmptyCanvas": "Nelze exportovat prázdné plátno.",
     "couldNotCopyToClipboard": "Nelze zkopírovat do schránky.",
     "decryptFailed": "Nelze dešifrovat data.",
-    "uploadedSecurly": "Nahrávání je zabezpečeno koncovým šifrováním, což znamená, že server Excalidraw ani třetí strany nemohou obsah přečíst.",
+    "uploadedSecurly": "Nahrávání je zabezpečeno koncovým šifrováním, což znamená, že server Creativedraw ani třetí strany nemohou obsah přečíst.",
     "loadSceneOverridePrompt": "Načítání externího výkresu nahradí váš existující obsah. Přejete si pokračovat?",
     "collabStopOverridePrompt": "",
     "errorAddingToLibrary": "Položku nelze přidat do knihovny",
@@ -288,9 +288,9 @@
     "link_title": "Odkaz pro sdílení",
     "link_details": "Exportovat jako odkaz pouze pro čtení.",
     "link_button": "Exportovat do odkazu",
-    "excalidrawplus_description": "Uložit scénu do vašeho pracovního prostoru Excalidraw+.",
+    "excalidrawplus_description": "Uložit scénu do vašeho pracovního prostoru Creativedraw+.",
     "excalidrawplus_button": "Exportovat",
-    "excalidrawplus_exportError": "Export do Excalidraw+ se v tuto chvíli nezdařil..."
+    "excalidrawplus_exportError": "Export do Creativedraw+ se v tuto chvíli nezdařil..."
   },
   "helpDialog": {
     "blog": "Přečtěte si náš blog",

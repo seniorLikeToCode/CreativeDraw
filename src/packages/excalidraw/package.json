@@ -10,7 +10,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "description": "Excalidraw as a React component",
+  "description": "Creativedraw as a React component",
   "repository": "https://github.com/excalidraw/excalidraw",
   "license": "MIT",
   "keywords": [

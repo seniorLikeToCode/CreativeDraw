@@ -203,13 +203,13 @@ describe("Paste bound text container", () => {
     height: 175,
     fontSize: 20,
     fontFamily: 1,
-    text: "Excalidraw is a\nvirtual \nopensource \nwhiteboard for \nsketching \nhand-drawn like\ndiagrams",
+    text: "Creativedraw is a\nvirtual \nopensource \nwhiteboard for \nsketching \nhand-drawn like\ndiagrams",
     baseline: 168,
     textAlign: "center",
     verticalAlign: "middle",
     containerId: container.id,
     originalText:
-      "Excalidraw is a virtual opensource whiteboard for sketching hand-drawn like diagrams",
+      "Creativedraw is a virtual opensource whiteboard for sketching hand-drawn like diagrams",
   };
 
   it("should fix ellipse bounding box", async () => {

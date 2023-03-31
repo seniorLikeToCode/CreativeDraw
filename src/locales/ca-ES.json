@@ -44,7 +44,7 @@
     "withBackground": "Fons",
     "exportEmbedScene": "Insereix l'escena",
     "exportEmbedScene_details": "Les dades de l’escena es desaran al fitxer PNG/SVG de manera que es pugui restaurar l’escena.\nAugmentarà la mida del fitxer exportat.",
-    "addWatermark": "Afegeix-hi «Fet amb Excalidraw»",
+    "addWatermark": "Afegeix-hi «Fet amb Creativedraw»",
     "handDrawn": "Dibuixat a mà",
     "normal": "Normal",
     "code": "Codi",
@@ -77,7 +77,7 @@
     "untitled": "Sense títol",
     "name": "Nom",
     "yourName": "El vostre nom",
-    "madeWithExcalidraw": "Fet amb Excalidraw",
+    "madeWithExcalidraw": "Fet amb Creativedraw",
     "group": "Agrupa la selecció",
     "ungroup": "Desagrupa la selecció",
     "collaborators": "Col·laboradors",
@@ -105,7 +105,7 @@
     "showBackground": "Mostra el selector de color de fons",
     "toggleTheme": "Activa o desactiva el tema",
     "personalLib": "Biblioteca personal",
-    "excalidrawLib": "Biblioteca d'Excalidraw",
+    "excalidrawLib": "Biblioteca d'Creativedraw",
     "decreaseFontSize": "Redueix la mida de la lletra",
     "increaseFontSize": "Augmenta la mida de la lletra",
     "unbindText": "Desvincular el text",
@@ -181,7 +181,7 @@
     "cannotExportEmptyCanvas": "No es pot exportar un llenç buit.",
     "couldNotCopyToClipboard": "No s'ha pogut copiar al porta-retalls.",
     "decryptFailed": "No s'ha pogut desencriptar.",
-    "uploadedSecurly": "La càrrega s'ha assegurat amb xifratge punta a punta, cosa que significa que el servidor Excalidraw i tercers no poden llegir el contingut.",
+    "uploadedSecurly": "La càrrega s'ha assegurat amb xifratge punta a punta, cosa que significa que el servidor Creativedraw i tercers no poden llegir el contingut.",
     "loadSceneOverridePrompt": "Si carregas aquest dibuix extern, substituirá el que tens. Vols continuar?",
     "collabStopOverridePrompt": "Aturar la sessió provocarà la sobreescriptura del dibuix previ, que hi ha desat en l'emmagatzematge local. N'esteu segur?\n\n(Si voleu conservar el dibuix local, tanqueu la pentanya del navegador en comptes d'aturar la sessió).",
     "errorAddingToLibrary": "No s'ha pogut afegir l'element a la biblioteca",
@@ -189,7 +189,7 @@
     "confirmAddLibrary": "Això afegirà {{numShapes}} forma(es) a la vostra biblioteca. Estàs segur?",
     "imageDoesNotContainScene": "Aquesta imatge no sembla contenir cap dada d'escena. Heu activat l'incrustació de l'escena durant l'exportació?",
     "cannotRestoreFromImage": "L’escena no s’ha pogut restaurar des d’aquest fitxer d’imatge",
-    "invalidSceneUrl": "No s'ha pogut importar l'escena des de l'adreça URL proporcionada. Està malformada o no conté dades Excalidraw JSON vàlides.",
+    "invalidSceneUrl": "No s'ha pogut importar l'escena des de l'adreça URL proporcionada. Està malformada o no conté dades Creativedraw JSON vàlides.",
     "resetLibrary": "Això buidarà la biblioteca. N'esteu segur?",
     "removeItemsFromsLibrary": "Suprimir {{count}} element(s) de la biblioteca?",
     "invalidEncryptionKey": "La clau d'encriptació ha de tenir 22 caràcters. La col·laboració en directe està desactivada.",
@@ -276,7 +276,7 @@
     "desc_inProgressIntro": "La sessió de col·laboració en directe està en marxa.",
     "desc_shareLink": "Comparteix aquest enllaç amb qualsevol persona amb qui vulgueu col·laborar:",
     "desc_exitSession": "Si atureu la sessió, us desconectareu de la sala, però podreu continuar treballant amb el dibuix localment. Tingues en compte que això no afectarà a altres persones, i encara podran col·laborar en la seva versió.",
-    "shareTitle": "Uniu-vos a una sessió de col·laboració en directe a Excalidraw"
+    "shareTitle": "Uniu-vos a una sessió de col·laboració en directe a Creativedraw"
   },
   "errorDialog": {
     "title": "Error"
@@ -288,9 +288,9 @@
     "link_title": "Enllaç per a compartir",
     "link_details": "Exporta com a un enllaç de només lectura.",
     "link_button": "Exporta a un enllaç",
-    "excalidrawplus_description": "Desa l'escena en el vostre espai de treball Excalidraw+.",
+    "excalidrawplus_description": "Desa l'escena en el vostre espai de treball Creativedraw+.",
     "excalidrawplus_button": "Exporta",
-    "excalidrawplus_exportError": "No és possible exportar a Excalidraw+ ara mateix..."
+    "excalidrawplus_exportError": "No és possible exportar a Creativedraw+ ara mateix..."
   },
   "helpDialog": {
     "blog": "Llegiu el nostre blog",
@@ -373,8 +373,8 @@
     "removeItemsFromLib": "Suprimeix els elements seleccionats de la llibreria"
   },
   "encrypted": {
-    "tooltip": "Els vostres dibuixos estan xifrats de punta a punta de manera que els servidors d’Excalidraw no els veuran mai.",
-    "link": "Article del blog sobre encriptació d'extrem a extrem a Excalidraw"
+    "tooltip": "Els vostres dibuixos estan xifrats de punta a punta de manera que els servidors d’Creativedraw no els veuran mai.",
+    "link": "Article del blog sobre encriptació d'extrem a extrem a Creativedraw"
   },
   "stats": {
     "angle": "Angle",
@@ -452,7 +452,7 @@
   "welcomeScreen": {
     "app": {
       "center_heading": "Totes les vostres dades es guarden localment al vostre navegador.",
-      "center_heading_plus": "Vols anar a Excalidraw+ en comptes?",
+      "center_heading_plus": "Vols anar a Creativedraw+ en comptes?",
       "menuHint": "Exportar, preferències, llenguatges..."
     },
     "defaults": {

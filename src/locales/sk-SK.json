@@ -44,7 +44,7 @@
     "withBackground": "Pozadie",
     "exportEmbedScene": "Zahrnúť scénu",
     "exportEmbedScene_details": "Údaje scény budú uložené do exportovaného PNG/SVG súboru, takže scéna z neho môže byť opäť obnovená.\nBude to mať za následok zvýšenie veľkosti súboru.",
-    "addWatermark": "Pridať \"Vytvorené s Excalidraw\"",
+    "addWatermark": "Pridať \"Vytvorené s Creativedraw\"",
     "handDrawn": "Ručne písané",
     "normal": "Normálne",
     "code": "Kód",
@@ -77,7 +77,7 @@
     "untitled": "Bez názvu",
     "name": "Meno",
     "yourName": "Vaše meno",
-    "madeWithExcalidraw": "Vytvorené s Excalidraw",
+    "madeWithExcalidraw": "Vytvorené s Creativedraw",
     "group": "Zoskupiť",
     "ungroup": "Zrušiť zoskupenie",
     "collaborators": "Spolupracovníci",
@@ -105,7 +105,7 @@
     "showBackground": "Zobraziť výber farby pre pozadie",
     "toggleTheme": "Prepnúť tému",
     "personalLib": "Moja knižnica",
-    "excalidrawLib": "Excalidraw knižnica",
+    "excalidrawLib": "Creativedraw knižnica",
     "decreaseFontSize": "Zmenšiť veľkosť písma",
     "increaseFontSize": "Zväčšiť veľkosť písma",
     "unbindText": "Zrušiť previazanie textu",
@@ -181,7 +181,7 @@
     "cannotExportEmptyCanvas": "Nie je možné exportovať prázdne plátno.",
     "couldNotCopyToClipboard": "Kopírovanie do schránky sa nepodarilo.",
     "decryptFailed": "Nepodarilo sa rozšifrovať údaje.",
-    "uploadedSecurly": "Nahratie je zabezpečené end-to-end šifrovaním, takže Excalidraw server a tretie strany nedokážu prečítať jeho obsah.",
+    "uploadedSecurly": "Nahratie je zabezpečené end-to-end šifrovaním, takže Creativedraw server a tretie strany nedokážu prečítať jeho obsah.",
     "loadSceneOverridePrompt": "Nahratie externej kresby nahradí existujúci obsah. Prajete si pokračovať?",
     "collabStopOverridePrompt": "Ukončenie schôdze nahradí vašu predchádzajúcu lokálne uloženú scénu. Ste si istý?\n\n(Ak si chcete ponechať lokálnu scénu, jednoducho iba zavrite kartu prehliadača.)",
     "errorAddingToLibrary": "Nepodarilo sa pridať položku do knižnice",
@@ -189,7 +189,7 @@
     "confirmAddLibrary": "Týmto sa pridá {{numShapes}} tvar(ov) do vašej knižnice. Ste si istí?",
     "imageDoesNotContainScene": "Tento obrázok neobsahuje žiadne údaje scény. Zvolili ste možnosť zahrnúť scénu počas exportu?",
     "cannotRestoreFromImage": "Nepodarilo sa obnoviť scénu z tohto obrázkového súboru",
-    "invalidSceneUrl": "Nepodarilo sa načítať scénu z poskytnutej URL. Je nevalidná alebo neobsahuje žiadne validné Excalidraw JSON dáta.",
+    "invalidSceneUrl": "Nepodarilo sa načítať scénu z poskytnutej URL. Je nevalidná alebo neobsahuje žiadne validné Creativedraw JSON dáta.",
     "resetLibrary": "Týmto vyprázdnite vašu knižnicu. Ste si istý?",
     "removeItemsFromsLibrary": "Odstrániť {{count}} položiek z knižnice?",
     "invalidEncryptionKey": "Šifrovací kľúč musí mať 22 znakov. Živá spolupráca je vypnutá.",
@@ -276,7 +276,7 @@
     "desc_inProgressIntro": "Práve prebieha živá schôdza.",
     "desc_shareLink": "Zdieľajte tento odkaz s osobou, s ktorou chcete spolupracovať:",
     "desc_exitSession": "Ukončenie schôdze vás odpojí z miestnosti, avšak naďalej budete môcť pokračovať v práci na scéne lokálne. Toto neovplyvní ostatných spolupracovníkov a stále budú môcť spolupracovať na ich verzii.",
-    "shareTitle": "Pripojiť sa k živej schôdzi na Excalidraw"
+    "shareTitle": "Pripojiť sa k živej schôdzi na Creativedraw"
   },
   "errorDialog": {
     "title": "Chyba"
@@ -288,9 +288,9 @@
     "link_title": "Odkaz na zdieľanie",
     "link_details": "Exportovať ako odkaz iba na čítanie.",
     "link_button": "Exportovať ako odkaz",
-    "excalidrawplus_description": "Uložiť scénu do vášho Excalidraw+ pracovného priestoru.",
+    "excalidrawplus_description": "Uložiť scénu do vášho Creativedraw+ pracovného priestoru.",
     "excalidrawplus_button": "Exportovať",
-    "excalidrawplus_exportError": "Nepodarilo sa vykonať export do Excalidraw+..."
+    "excalidrawplus_exportError": "Nepodarilo sa vykonať export do Creativedraw+..."
   },
   "helpDialog": {
     "blog": "Prečítajte si náš blog",
@@ -373,8 +373,8 @@
     "removeItemsFromLib": "Odstrániť zvolené položky z knižnice"
   },
   "encrypted": {
-    "tooltip": "Vaše kresby používajú end-to-end šifrovanie, takže ich Excalidraw server nedokáže prečítať.",
-    "link": "Blog o end-to-end šifrovaní v Excalidraw"
+    "tooltip": "Vaše kresby používajú end-to-end šifrovanie, takže ich Creativedraw server nedokáže prečítať.",
+    "link": "Blog o end-to-end šifrovaní v Creativedraw"
   },
   "stats": {
     "angle": "Uhol",
@@ -452,7 +452,7 @@
   "welcomeScreen": {
     "app": {
       "center_heading": "Všetky vaše dáta sú uložené lokálne vo vašom prehliadači.",
-      "center_heading_plus": "Chceli ste namiesto toho prejsť do Excalidraw+?",
+      "center_heading_plus": "Chceli ste namiesto toho prejsť do Creativedraw+?",
       "menuHint": "Exportovanie, nastavenia, jazyky, ..."
     },
     "defaults": {

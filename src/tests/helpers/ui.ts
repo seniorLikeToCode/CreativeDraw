@@ -238,7 +238,7 @@ export class UI {
   };
 
   /**
-   * Creates an Excalidraw element, and returns a proxy that wraps it so that
+   * Creates an Creativedraw element, and returns a proxy that wraps it so that
    * accessing props will return the latest ones from the object existing in
    * the app's elements array. This is because across the app lifecycle we tend
    * to recreate element objects and the returned reference will become stale.

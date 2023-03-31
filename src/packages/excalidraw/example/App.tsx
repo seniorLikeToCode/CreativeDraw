@@ -63,7 +63,7 @@ const {
   exportToSvg,
   exportToBlob,
   exportToClipboard,
-  Excalidraw,
+  Creativedraw,
   useHandleLibrary,
   MIME_TYPES,
   sceneCoordsToViewportCoords,
@@ -169,7 +169,7 @@ export default function App({ appTitle, useCustom, customArgs }: AppProps) {
   };
 
   const loadSceneOrLibrary = async () => {
-    const file = await fileOpen({ description: "Excalidraw or library file" });
+    const file = await fileOpen({ description: "Creativedraw or library file" });
     const contents = await loadSceneOrLibraryFromBlob(file, null, null);
     if (contents.type === MIME_TYPES.excalidraw) {
       excalidrawAPI?.updateScene(contents.data as any);
@@ -513,7 +513,7 @@ export default function App({ appTitle, useCustom, customArgs }: AppProps) {
           isCollaborating={isCollaborating}
           onSelect={() => window.alert("You clicked on collab button")}
         />
-        <MainMenu.Group title="Excalidraw links">
+        <MainMenu.Group title="Creativedraw links">
           <MainMenu.DefaultItems.Socials />
         </MainMenu.Group>
         <MainMenu.Separator />
@@ -685,7 +685,7 @@ export default function App({ appTitle, useCustom, customArgs }: AppProps) {
               Toggle Custom Sidebar
             </button>
           </div>
-          <Excalidraw
+          <Creativedraw
             ref={(api: ExcalidrawImperativeAPI) => setExcalidrawAPI(api)}
             initialData={initialStatePromiseRef.current.promise}
             onChange={(elements, state) => {
@@ -715,7 +715,7 @@ export default function App({ appTitle, useCustom, customArgs }: AppProps) {
             )}
             <WelcomeScreen />
             {renderMenu()}
-          </Excalidraw>
+          </Creativedraw>
           {Object.keys(commentIcons || []).length > 0 && renderCommentIcons()}
           {comment && renderComment()}
         </div>

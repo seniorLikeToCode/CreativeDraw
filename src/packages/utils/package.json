@@ -5,7 +5,7 @@
   "files": [
     "dist/*"
   ],
-  "description": "Excalidraw utilities functions",
+  "description": "Creativedraw utilities functions",
   "publishConfig": {
     "access": "public"
   },

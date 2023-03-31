@@ -390,10 +390,10 @@ describe("restoreAppState", () => {
     );
   });
 
-  it("when imported data state has a not allowed Excalidraw Element Types", () => {
+  it("when imported data state has a not allowed Creativedraw Element Types", () => {
     const stubImportedAppState: any = getDefaultAppState();
 
-    stubImportedAppState.activeTool = "not allowed Excalidraw Element Types";
+    stubImportedAppState.activeTool = "not allowed Creativedraw Element Types";
     const stubLocalAppState = getDefaultAppState();
 
     const restoredAppState = restore.restoreAppState(

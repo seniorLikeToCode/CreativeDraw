@@ -288,9 +288,9 @@
     "link_title": "Ортақ сілтеме",
     "link_details": "Тек оқуға арналған сілтеме ретінде экспорттау.",
     "link_button": "Сілтемеге экспорттау",
-    "excalidrawplus_description": "Сахнаны өзіңіздің Excalidraw+ жұмыс кеңістігінде сақтаңыз.",
+    "excalidrawplus_description": "Сахнаны өзіңіздің Creativedraw+ жұмыс кеңістігінде сақтаңыз.",
     "excalidrawplus_button": "Экспорт",
-    "excalidrawplus_exportError": "Қазіргі уақытта Excalidraw+ үшін экспорттау мүмкін емес..."
+    "excalidrawplus_exportError": "Қазіргі уақытта Creativedraw+ үшін экспорттау мүмкін емес..."
   },
   "helpDialog": {
     "blog": "Біздің блогты оқу",
@@ -373,8 +373,8 @@
     "removeItemsFromLib": ""
   },
   "encrypted": {
-    "tooltip": "Сіздің сызбаларыңыз өтпелі шифрлеу арқылы шифрланған, сондықтан Excalidraw серверлері оларды ешқашан көрмейді.",
-    "link": "Excalidraw қолданатын өтпелі шифрлеу туралы блог жазбасы"
+    "tooltip": "Сіздің сызбаларыңыз өтпелі шифрлеу арқылы шифрланған, сондықтан Creativedraw серверлері оларды ешқашан көрмейді.",
+    "link": "Creativedraw қолданатын өтпелі шифрлеу туралы блог жазбасы"
   },
   "stats": {
     "angle": "Бұрыш",

@@ -44,7 +44,7 @@
     "withBackground": "Háttér",
     "exportEmbedScene": "Jelenet beágyazása",
     "exportEmbedScene_details": "A jelenetet leíró adatok hozzá lesznek adva a PNG/SVG fájlhoz, így a jelenetet vissza lehet majd tölteni belőle. Ez megnöveli a fájl méretét.",
-    "addWatermark": "Add hozzá, hogy \"Excalidraw-val készült\"",
+    "addWatermark": "Add hozzá, hogy \"Creativedraw-val készült\"",
     "handDrawn": "Kézzel rajzolt",
     "normal": "Normál",
     "code": "Kód",
@@ -77,7 +77,7 @@
     "untitled": "Névtelen",
     "name": "Név",
     "yourName": "Neved",
-    "madeWithExcalidraw": "Excalidraw-val készült",
+    "madeWithExcalidraw": "Creativedraw-val készült",
     "group": "Csoportosítás",
     "ungroup": "Csoportbontás",
     "collaborators": "Közreműködők",
@@ -105,7 +105,7 @@
     "showBackground": "Háttérszín-választó megjelenítése",
     "toggleTheme": "Téma váltása",
     "personalLib": "Személyes könyvtár",
-    "excalidrawLib": "Excalidraw könyvtár",
+    "excalidrawLib": "Creativedraw könyvtár",
     "decreaseFontSize": "Betűméret csökkentése",
     "increaseFontSize": "Betűméret növelése",
     "unbindText": "Szövegkötés feloldása",
@@ -181,7 +181,7 @@
     "cannotExportEmptyCanvas": "Üres vászont nem lehet exportálni.",
     "couldNotCopyToClipboard": "",
     "decryptFailed": "Nem sikerült visszafejteni a titkosított adatot.",
-    "uploadedSecurly": "A feltöltést végpontok közötti titkosítással biztosítottuk, ami azt jelenti, hogy egy harmadik fél nem tudja megnézni a tartalmát, beleértve az Excalidraw szervereit is.",
+    "uploadedSecurly": "A feltöltést végpontok közötti titkosítással biztosítottuk, ami azt jelenti, hogy egy harmadik fél nem tudja megnézni a tartalmát, beleértve az Creativedraw szervereit is.",
     "loadSceneOverridePrompt": "A betöltött külső rajz felül fogja írnia meglévőt. Szeretnéd folytatni?",
     "collabStopOverridePrompt": "A munkamenet leállítása felül fogja írni az előzőleg helyben tárolt rajzot. Biztosan ezt akarod?\n(Ha meg akarod tartani a helyben tárolt rajzot, egyszerűen csak zárd be a böngésző fület)",
     "errorAddingToLibrary": "A tétel nem addható hozzá a könyvtárhoz",
@@ -189,7 +189,7 @@
     "confirmAddLibrary": "Ez a művelet {{numShapes}} formát fog hozzáadni a könyvtáradhoz. Biztos vagy benne?",
     "imageDoesNotContainScene": "Úgy tűnik, hogy ez a kép nem tartalmaz jelenetadatokat. Engedélyezted a jelenetbeágyazást az exportálás során?",
     "cannotRestoreFromImage": "A jelenet visszaállítása nem sikerült ebből a kép fájlból",
-    "invalidSceneUrl": "Nem sikerült importálni a jelenetet a megadott URL-ről. Rossz formátumú, vagy nem tartalmaz érvényes Excalidraw JSON-adatokat.",
+    "invalidSceneUrl": "Nem sikerült importálni a jelenetet a megadott URL-ről. Rossz formátumú, vagy nem tartalmaz érvényes Creativedraw JSON-adatokat.",
     "resetLibrary": "Ezzel törlöd a könyvtárát. biztos vagy ebben?",
     "removeItemsFromsLibrary": "{{count}} elemet törölsz a könyvtárból?",
     "invalidEncryptionKey": "A titkosítási kulcsnak 22 karakterből kell állnia. Az élő együttműködés le van tiltva.",
@@ -276,7 +276,7 @@
     "desc_inProgressIntro": "Az élő együttműködési munkamenet folyamatban van.",
     "desc_shareLink": "Ossza meg ezt a linket bárkivel, akivel együtt szeretne működni:",
     "desc_exitSession": "Az munkamenet leállítása kilépteti önt a szobából, de folytathatja a munkát a saját gépén. Vegye figyelembe, hogy ez nem érinti más emberek munkáját és ők továbbra is együttműködhetnek a saját változatukon.",
-    "shareTitle": "Csatlakozás egy élő együttműködési munkamenethez az Excalidraw-ban"
+    "shareTitle": "Csatlakozás egy élő együttműködési munkamenethez az Creativedraw-ban"
   },
   "errorDialog": {
     "title": "Hiba"
@@ -288,9 +288,9 @@
     "link_title": "Megosztható hivatkozás",
     "link_details": "Exportálás csak olvasható hivatkozásként.",
     "link_button": "Exportálás hivatkozásba",
-    "excalidrawplus_description": "Mentse el a jelenetet az Excalidraw+ munkaterületére.",
+    "excalidrawplus_description": "Mentse el a jelenetet az Creativedraw+ munkaterületére.",
     "excalidrawplus_button": "Exportálás",
-    "excalidrawplus_exportError": "Jelenleg nem lehet exportálni az Excalidraw+-ba..."
+    "excalidrawplus_exportError": "Jelenleg nem lehet exportálni az Creativedraw+-ba..."
   },
   "helpDialog": {
     "blog": "Olvasd a blogunkat",
@@ -373,8 +373,8 @@
     "removeItemsFromLib": "A kiválasztott elemek eltávolítása a könyvtárból"
   },
   "encrypted": {
-    "tooltip": "A rajzaidat végpontok közötti titkosítással tároljuk, tehát az Excalidraw szervereiről se tud más belenézni.",
-    "link": "Blogbejegyzés a végpontok közötti titkosításról az Excalidraw-ban"
+    "tooltip": "A rajzaidat végpontok közötti titkosítással tároljuk, tehát az Creativedraw szervereiről se tud más belenézni.",
+    "link": "Blogbejegyzés a végpontok közötti titkosításról az Creativedraw-ban"
   },
   "stats": {
     "angle": "Szög",
