@@ -46,12 +46,12 @@ export const LibraryButton: React.FC<{
         aria-label={capitalizeString(t("toolBar.library"))}
         aria-keyshortcuts="0"
       />
-      <div className="library-button">
+      {/* <div className="library-button">
         <div>{LibraryIcon}</div>
         {showLabel && (
           <div className="library-button__label">{t("toolBar.library")}</div>
         )}
-      </div>
+      </div> */}
     </label>
   );
 };
